@@ -1,0 +1,13 @@
+backend/.venv/
+backend/.env
+backend/chroma_db/
+backend/data/processed/chunks.jsonl
+__pycache__/
+*.pyc
+
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/out/
+
+.DS_Store
