@@ -20,6 +20,12 @@ SOURCE_TITLES = {
     "faust_part1.txt": "Faust, Part I",
     "werther.txt": "The Sorrows of Young Werther",
     "theory_of_colours.txt": "Theory of Colours",
+    "poems_of_goethe.txt": "The Poems of Goethe",
+    "autobiography.txt": "The Autobiography of Goethe (Poetry and Truth)",
+    "maxims_and_reflections.txt": "Maxims and Reflections",
+    "wilhelm_meister_vol1.txt": "Wilhelm Meister's Apprenticeship, Vol. I",
+    "wilhelm_meister_vol2.txt": "Wilhelm Meister's Apprenticeship, Vol. II",
+    "italian_journey_letters.txt": "Letters from Switzerland and Travels in Italy",
 }
 
 SEPARATORS = ["\n\n", "\n", ". ", " ", ""]

@@ -1,9 +1,11 @@
 # Goethe AI
 
 A full-stack, retrieval-augmented conversational persona of **Johann Wolfgang von Goethe** —
-grounded in the public-domain text of *Faust, Part I*, *The Sorrows of Young Werther*, and
-*Theory of Colours*. Talk to him in the browser; he answers in character, and a lightweight
-audio-reactive "talking portrait" animates while he speaks.
+grounded in nine public-domain works: *Faust, Part I*; *The Sorrows of Young Werther*;
+*Theory of Colours*; *The Poems of Goethe*; *The Autobiography of Goethe (Poetry and Truth)*;
+*Maxims and Reflections*; *Wilhelm Meister's Apprenticeship* (Vols. I & II); and *Letters from
+Switzerland and Travels in Italy*. Talk to him in the browser; he answers in character, and a
+lightweight audio-reactive "talking portrait" animates while he speaks.
 
 Built end-to-end from [`Goethe_AI_Agenda.md`](./Goethe_AI_Agenda.md).
 
@@ -78,7 +80,7 @@ cp .env.example .env
 # one-time data pipeline (source texts are already in data/raw/)
 python scripts/clean.py
 python scripts/chunk.py
-python scripts/ingest.py     # embeds ~2000 chunks — costs a few cents, takes ~1-2 min
+python scripts/ingest.py     # embeds ~12,000 chunks — a bit under $0.10, takes a few minutes
 
 uvicorn app.main:app --reload --port 8000
 ```

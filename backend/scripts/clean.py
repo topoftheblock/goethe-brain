@@ -16,10 +16,13 @@ END_RE = re.compile(r"\*\*\*\s*END OF THE PROJECT GUTENBERG EBOOK.*?\*\*\*", re.
 NOISE_LINE_PATTERNS = [
     re.compile(r"^\[Illustration.*?\]$", re.IGNORECASE),
     re.compile(r"^\s*\d+\s*$"),  # bare page numbers
-    re.compile(r"^\[Footnote \d+.*?\]$", re.IGNORECASE),
     re.compile(r"^Produced by.*$", re.IGNORECASE),
     re.compile(r"^Transcriber('s)? [Nn]ote.*$"),
 ]
+
+# Footnotes in these editions often span multiple lines, e.g.
+# "[Footnote 3: So in the original.--ED.]" wrapped across two lines.
+FOOTNOTE_BLOCK_RE = re.compile(r"\[Footnote\b.*?\]", re.IGNORECASE | re.DOTALL)
 
 
 def strip_gutenberg_wrapper(text: str) -> str:
@@ -50,6 +53,7 @@ def collapse_whitespace(text: str) -> str:
 def clean_file(path: Path) -> str:
     raw = path.read_text(encoding="utf-8", errors="ignore")
     text = strip_gutenberg_wrapper(raw)
+    text = FOOTNOTE_BLOCK_RE.sub("", text)
     text = strip_noise_lines(text)
     text = collapse_whitespace(text)
     return text
