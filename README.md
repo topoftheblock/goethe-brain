@@ -1,11 +1,40 @@
 # Goethe AI
 
 A full-stack, retrieval-augmented conversational persona of **Johann Wolfgang von Goethe** —
-grounded in nine public-domain works: *Faust, Part I*; *The Sorrows of Young Werther*;
-*Theory of Colours*; *The Poems of Goethe*; *The Autobiography of Goethe (Poetry and Truth)*;
-*Maxims and Reflections*; *Wilhelm Meister's Apprenticeship* (Vols. I & II); and *Letters from
-Switzerland and Travels in Italy*. Talk to him in the browser; he answers in character, and a
-lightweight audio-reactive "talking portrait" animates while he speaks.
+grounded in essentially everything by Goethe available on Project Gutenberg: 43 source texts
+covering his major plays, novels, poetry, science writing, memoirs, aphorisms, and private
+letters, in both English translation and (where no English translation exists) the German
+original. Talk to him in the browser; he answers in character — reading German sources as
+fluently as English ones — and a lightweight audio-reactive "talking portrait" animates while he
+speaks.
+
+<details>
+<summary>Full source list (43 texts, ~24,000 chunks)</summary>
+
+**English translations:**
+Faust, Part I · The Sorrows of Young Werther · Theory of Colours · The Poems of Goethe ·
+The Autobiography of Goethe (Poetry and Truth) · Maxims and Reflections ·
+Wilhelm Meister's Apprenticeship (Vols. I–II) · Letters from Switzerland and Travels in Italy ·
+Egmont · Hermann and Dorothea · Erotica Romana · Iphigenia in Tauris ·
+Goethe's Literary Essays · Goethe and Schiller's Xenions · The Princess and the Tiger
+
+**German originals (no English translation on Gutenberg):**
+Die Wahlverwandtschaften (Elective Affinities) · Torquato Tasso · Götz von Berlichingen ·
+Reineke Fuchs · Wilhelm Meisters Wanderjahre (Vols. I–III) · West-östlicher Divan ·
+Römische Elegien · Venetianische Epigramme · Die natürliche Tochter · Die Mitschuldigen ·
+Prometheus (fragment) · Die Geschwister · Unterhaltungen deutscher Ausgewanderten ·
+Italienische Reise (Vols. I–II) · Satyros · Die Laune des Verliebten · Die Aufgeregten ·
+Belagerung von Mainz · Kampagne in Frankreich
+
+**Letters (German, no English translation on Gutenberg):**
+Letters to Leipzig friends · Letters to Auguste zu Stolberg · Letters to Lavater (1774–1783) ·
+Letters exchanged with Charlotte Kestner around *Werther* · Schiller & Goethe's letters to
+A. W. Schlegel
+
+Deliberately excluded: near-duplicate re-translations of works already covered (e.g. three other
+English Faust Part I translations), anthologies where Goethe is a minor contributor among other
+authors, and books *about* Goethe rather than *by* him.
+</details>
 
 Built end-to-end from [`Goethe_AI_Agenda.md`](./Goethe_AI_Agenda.md).
 
@@ -80,7 +109,7 @@ cp .env.example .env
 # one-time data pipeline (source texts are already in data/raw/)
 python scripts/clean.py
 python scripts/chunk.py
-python scripts/ingest.py     # embeds ~12,000 chunks — a bit under $0.10, takes a few minutes
+python scripts/ingest.py     # embeds ~24,000 chunks — roughly $0.10-0.20, takes several minutes
 
 uvicorn app.main:app --reload --port 8000
 ```

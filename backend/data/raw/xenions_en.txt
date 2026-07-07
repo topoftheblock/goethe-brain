@@ -1,0 +1,4185 @@
+The Project Gutenberg eBook of Goethe and Schiller's Xenions
+    
+This eBook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this eBook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+Title: Goethe and Schiller's Xenions
+
+Author: Johann Wolfgang von Goethe
+        Friedrich Schiller
+
+Translator: Paul Carus
+
+
+        
+Release date: August 17, 2025 [eBook #76691]
+
+Language: English
+
+Original publication: Chicago, IL: The Open Court Publishing Co., 1915
+
+Other information and formats: www.gutenberg.org/ebooks/76691
+
+Credits: Markus Brenner and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by The Internet Archive/American Libraries.)
+
+
+*** START OF THE PROJECT GUTENBERG EBOOK GOETHE AND SCHILLER'S XENIONS ***
+
+
+  ####################################################################
+
+                          Transcriber’s Notes
+
+  This e-text is based on the printed version of ‘Goethe and Schiller’s
+  Xenions,’ from 1915. Inconsistent spelling and hyphenation have
+  been retained, but punctuation and typographical errors have been
+  corrected.
+
+  The footnotes in the preface (pp. 1-22) have been placed below their
+  respective paragraphs. They have been assigned alphabetical symbols
+  ([A]-[C]). Endnotes, which have been placed at the end of the main
+  text, have been arranged by using consecutive numbers ([1]-[23]).
+
+  ####################################################################
+
+
+
+
+                         GOETHE AND SCHILLER’S
+                                XENIONS
+
+
+
+
+                            [Illustration]
+
+
+
+
+                         GOETHE AND SCHILLER’S
+                                XENIONS
+
+                        SELECTED AND TRANSLATED
+
+                                  BY
+
+                              PAUL CARUS
+
+                            SECOND EDITION
+
+                          CHICAGO      LONDON
+
+                     THE OPEN COURT PUBLISHING CO.
+                                 1915
+
+
+
+
+                             COPYRIGHT BY
+
+                   THE OPEN COURT PUBLISHING COMPANY
+                                 1915
+
+
+
+
+                                Motto:
+
+
+                “Warum willst du dich von uns allen
+                Und unserer Meinung entfernen?”
+                Ich schreibe nicht euch zu gefallen;
+                Ihr sollt was lernen. -- Goethe.
+
+                “Why keepest thou aloof? Why lonely
+                Art from our views thou turning?”
+                I do not write to please you only,
+                You must be learning!
+
+
+
+
+Table of Contents.
+
+
+                                                        PAGE
+
+  ~The History and Poetical Form of the Xenions~           1
+    The History of the Xenions                             3
+    The Elegiac Distich                                   13
+
+  ~Introductory~                                          23
+    Our Purpose                                           25
+    Our Method                                            26
+    The Distich                                           27
+    Boisterous                                            28
+    Our Common Fate                                       29
+    The Last Martyr                                       30
+
+  ~Soul and World~                                        31
+    Our Own                                               33
+    Harmony                                               34
+    The Key                                               35
+    Worth and Value                                       36
+    Nature and Reason                                     37
+    Oneness                                               38
+    Various Destinies                                     39
+    The Immutable                                         40
+    The Law of Nature                                     41
+    Zeus to Heracles                                      42
+    Folly and Insanity                                    43
+    Motives and Action                                    44
+    Baal Priests                                          45
+    Salvation                                             46
+    Human Life                                            47
+    Immortality                                           48
+    Indestructible                                        49
+    God, World, and Man                                   50
+
+  ~Critical and Literary~                                 51
+    The Poet Addresses his Muse                           53
+    To Incompetent Reviewers                              54
+    Wolf’s Homer                                          55
+    Intellectual Aristocracy                              56
+    Bad Times                                             57
+
+  Mutual Admiration Society                               58
+    Dilettante                                            59
+    To One Author                                         60
+    To Another Author                                     61
+    Wanted                                                62
+    Artifice                                              63
+    A Discussion                                          64
+
+  ~Satirical and Personal~                                65
+    The Great Moment                                      67
+    To Some Critics                                       68
+    The Vinculum                                          69
+    Present Generation                                    70
+    To Those in Authority                                 71
+    Questionable Investigation                            72
+    The Spirit and the Letter                             73
+    The Sense of a Committee                              74
+    Taste in a Watering Place                             75
+    Sample of Modern Criticism                            76
+    Nicolai’s Book on the Source of the Danube            77
+    The Collector                                         78
+    Crudity                                               79
+    Nicolai’s Motto                                       80
+    A Publisher                                           81
+    In Comparison with Socrates                           82
+    To Certain Moralists                                  83
+    Martyrs                                               84
+    The Brothers Stolberg                                 85
+    The Connoisseur                                       86
+    Sentimentalists                                       87
+    The Prophet                                           88
+    The Half-Bird                                         89
+    Partisan Spirit                                       90
+
+  ~The Philosophers in Hades~                             91
+    The Poet Speaks                                       93
+    Aristotle                                             94
+    Urgent                                                95
+    Descartes                                             96
+    My Answer                                             97
+    Spinoza                                               98
+    Berkeley                                              99
+    Leibniz                                              100
+    Kant                                                 101
+    David Hume                                           102
+    Fichte                                               103
+    Reinhold                                             104
+    My Answer                                            105
+    K. C. F. Schmidt, the Moral Philosopher              106
+    My Answer                                            107
+    Philosophy                                           108
+
+  ~Philosophical Problems~                               109
+    For Sale                                             111
+    A Flaw                                               112
+    Empiricists                                          113
+    Theoreticians                                        114
+    Last Refuge                                          115
+    Natural Science and Transcendental Philosophy        116
+    The Same                                             117
+    Kant and his Interpreters                            118
+    Teleology                                            119
+    The Problem of Natural Law                           120
+    Puffendorf’s Reply                                   121
+    A Moral Problem                                      122
+    The Kantian’s Decision                               123
+    Human Knowledge                                      124
+    Systems                                              126
+
+  ~Science and Art~                                      127
+    Genius a Gift                                        129
+    Truth and Form                                       130
+    Creation                                             131
+    Different Applications                               132
+    The Sublime                                          133
+    Fiction and Truth                                    134
+    The Poet and the Naturalist                          135
+    Trust in Scientific Truth                            136
+    Wisdom and Prudence                                  138
+
+  ~Wisdom, Morality and Religion~                        139
+    The Highest                                          141
+    Piety and Natural Science                            142
+    Misrepresented                                       143
+    Philosopher and Bigot                                144
+    Theological Hedonists                                145
+    Friend and Enemy                                     146
+    Distinction                                          147
+    Perfection                                           148
+    Goodness and Greatness                               149
+    The One Thing Needed                                 150
+    Our Duty                                             151
+    Difference in Oneness                                152
+    Repetition                                           153
+    Utility                                              154
+    Harm                                                 155
+    Discipline                                           156
+    Comfort                                              157
+    Analytical Truth-Seekers                             158
+    Depreciated Coin                                     159
+    Ritual                                               160
+    Mystics                                              161
+    Light and Color                                      162
+    Not Irreligious                                      163
+    Our Father                                           164
+
+  ~Notes~                                                165
+
+
+
+
+                       THE HISTORY AND POETICAL
+                         FORM OF THE XENIONS.
+
+
+
+
+The History of the Xenions.
+
+
+The appearance of the Xenions, a collection of satirical epigrams
+in the _Musen-Almanach_ of 1797, is a memorable event in the
+literature of Germany. With the end of the eighteenth century a new
+era had commenced. The idea of evolution, first clearly pronounced by
+Caspar Friedrich Wolff in his theory of epigenesis,[A] pointed out
+new aims of investigation in the realm of natural sciences; Kant’s
+_Critique of Pure Reason_ propounded new problems in philosophy;
+and Beethoven conceived his grand sonatas, which reflected the spirit
+of an all-comprehensive aspiration in the soul-stirring notes of music.
+New ideals, religious, moral, and social, had dawned upon mankind, and
+the two great apostles of this movement in the domain of poetry were
+Goethe and Schiller.
+
+  [A] His _Theoria Generationis_ appeared in 1759.
+
+It is well known what good friends Goethe and Schiller were. After
+the two great poets had become personally acquainted they inspired,
+criticised, and corrected each other. Their common ideal became the
+firm basis of their mutual friendship, and the chief monument of their
+alliance is the collection of satirical distichs known as the Xenions.
+
+Great though Schiller and Goethe were, they did not find sufficient
+support among those who should have been their first followers and
+disciples. The men of literary callings, who should be the priests of
+the holiest interests of humanity, were too envious fully to recognize
+and acknowledge the merit of these two great poet-thinkers. Moreover,
+the men of letters were chiefly enamoured of their own traditional
+methods of literary production and could not appreciate the purity, the
+grandeur, and the holiness of the new taste. They misunderstood the
+progressive spirit of the time, and to their puny minds the rise of the
+new era appeared as a mere disturbance of their traditional habits.
+They looked upon the twin giants of the world of thought as usurpers,
+who from personal vanity and ambition tyrannized over all others, and
+whose impositions had either to be resisted, or silenced by shrugs.
+
+On the one side, the orthodox and narrow-minded pietists considered
+Goethe and Schiller irreligious and un-Christian, and accused them
+of paganism. On the other side we find the two great poets opposed
+by such men as the shallow Nicolai, a man of good common sense but
+without any genius, a man who preached that stale kind of rationalism
+which consisted in both the suppression of all higher aspiration and
+the denial of spirituality in any sense. He railed at Goethe and
+Schiller as well as at Kant, Fichte, and other great minds of his time
+who went beyond his depth and were incomprehensible to him. The pious
+are characterized in the Xenions as enthusiasts and sentimentalists
+(_Schwärmer_) while the prosaic rationalists are called by the
+German student term “philistines” which denotes common-place people,
+and the pedantic Nicolai figures as the “arch-philistine.”
+
+Nicolai was a rich and influential publisher in Berlin; he was an
+author himself, and a very prolific one too, but his writings are
+superficial and barren. On several occasions he criticised Goethe
+severely, and our great poets asserted that in fighting superstition
+he attacked poetry, and in attempting to suppress the belief in
+_spirits_ he also tried to abolish _spirit_. So Goethe makes
+him say in the _Walpurgisnacht_:
+
+    “Ich sag’s Euch _Geistern_ in’s Gesicht,
+    Den _Geistes_-Despotismus leid ich nicht;
+    Mein Geist kann ihn nicht exerciren.”
+
+    [I tell you, spirits, to your face,
+    I give to spirit-despotism no place;
+    My spirit cannot practise it at all.]
+
+                        _Tr. by Bayard Taylor._
+
+The irritation of the literary dwarfs showed itself in malevolent
+reviews of Schiller’s literary enterprise, _Die Horen_.
+
+Schiller wrote to Goethe June 15, 1795:
+
+“I have thought for some time that it would be well to open a
+critical arena in _Die Horen_. Yet we should not give away our
+rights by formally inviting the public and the authors. The public
+would certainly be represented by the most miserable voices, and the
+authors, as we know from experience, would become very importunate. My
+proposition is that we make the attack ourselves. In case the authors
+wish to defend themselves in _Die Horen_, they must submit to our
+conditions. And my advice is, not to begin with propositions, but to
+begin with deeds. There is no harm if we are denounced as ill-bred.”
+
+Several letters were exchanged on this subject, and Goethe wrote in a
+letter of December 23, 1795, to Schiller:
+
+“We must cultivate the idea of making epigrams upon all journals; one
+distich for each magazine, in the manner of Martial’s _Xenia_; and
+we must publish a collection of them in the _Musen-Almanach_ of
+next year. Enclosed are some Xenions as a specimen.”
+
+Schiller answered at once, December 23, 1795:
+
+“The idea of the Xenions is splendid and must be carried out.... What a
+wealth of material is offered by the Stolbergs, by Racknitz, Ramdohr,
+the metaphysical world with its _Me’s_ and _Not-Me’s_, friend
+Nicolai, our sworn enemy, the Leipsic taste-mongers, Thümmel, with
+Göschen as his horsegroom, and others.”
+
+Thus the two poets decided to wage a destructive war against their
+common enemies, and to come down upon them in a literary thunderstorm.
+The poets planned a “poetical deviltry,” as they called it, and named
+their satirical poetry “Xenions.”
+
+The word Xenion originally meant a gift presented by a host to a
+stranger who enjoys his hospitality. The Roman poet Martial called his
+book of satirical epigrams _Xenia_; and, as Goethe and Schiller
+intended to make similar epigrammatical thrusts at Nicolai and other
+offenders, they adopted Martial’s expression and called their verses
+Xenions.[B] They agreed to publish all their Xenions together, and to
+regard them as their common property.
+
+  [B] We prefer the Saxon form of the plural (_Xenions_) to the Latin
+  form (_Xenia_), which is appropriate only as a name of Latin poetry.
+
+The first Xenions were very aggressive, but by and by they became more
+general and lost their personal character. There are among them many
+which are lofty and full of deep thought. It happened now and then
+that the authors of the Xenions hit the wrong man; but this, although
+to be regretted, was more excusable than the abuse with which their
+adversaries retorted.
+
+The Xenions raised a storm of indignation, as was to be expected, and
+Anti-Xenions were written by many of those who had been attacked. But
+while the tenor of the Xenions is lofty in spite of their personal
+character, and while we feel the high aims of Goethe and Schiller in
+their attempts to purify literature, the Anti-Xenions are _wholly_
+personal. They are rude, malicious and mean. They insinuate that the
+Xenions were prompted by vile motives; that Goethe and Schiller wanted
+more praise and flattery; that they were envious of the laurels of
+others and wanted to be the sole usurpers of Mount Parnassus. Schiller
+was called Kant’s ape, and Goethe was reproached with his family
+relations.
+
+The history of the Xenions is their justification. The Anti-Xenions
+are, in themselves alone, a wholesale condemnation of the opposition
+made to Goethe and Schiller.
+
+Goethe wrote to Schiller concerning the reception which the Xenions
+found, on December 5, 1796:
+
+“It is real fun to observe what has been offensive to this kind of
+people, and also what they think has been offensive to us. How trivial,
+empty, and mean they consider the life of others, and how they direct
+their arrows against the outside of the works! How little do they know
+that a man who takes life seriously lives in an impregnable castle!”
+
+Goethe and Schiller had wielded a vigorous and two-edged weapon
+in the Xenions. They had severely chastised their antagonists for
+incompetency; but now it devolved upon themselves to prove the right of
+their censorship, and they were conscious of this duty. Goethe wrote,
+November 15, 1806:
+
+“After the bold venture of the Xenions, we must confine our labors
+strictly to great and worthy works of art. We must shame our
+adversaries by transmuting our Protean nature henceforth into noble and
+good forms.”
+
+Events proved that both Goethe and Schiller were not only willing but
+able to fulfil these intentions. Their antagonists have disappeared.
+Some of them would now be entirely forgotten had not the two poets
+immortalized them in the Xenions.
+
+Some Xenions are of mere transitory importance, especially such as
+contain allusions and criticisms that are lost to those who are not
+thoroughly versed in the history of the times, while others are gems
+of permanent value, reflecting in a few words flashes of the deepest
+wisdom, and they ought to be better known among English-speaking
+people. We have therefore extracted and translated those which we deem
+worthy of preservation for all time.
+
+Goethe and Schiller’s distichs, we are sorry to add, are not always
+very elegant, and sometimes lack in smoothness and correctness. The
+first half of their pentameters is often very weak, and many of the
+second parts are extremely awkward, as for instance in the distich on
+page 163, where we read:
+
+            ....“Und warum
+    kei′ne?” Aus Re′ligion′.
+
+This excited the anger of Voss, the translator of Homer in the original
+meter of dactylic hexameters. Voss ridiculed Goethe and Schiller for
+their bad versification in a distich, which he intentionally made
+even worse than the worst of theirs, using the words with a wrong
+accentuation:
+
+    “In′ Weimar und′ in Jena′
+      macht man′ Hexa′meter wie′ der;
+    A′ber die Pen′tameter′
+      sind′ doch noch ex′cellenter′!”
+
+    [In′ Weimar and′ in Jena′
+      they make′ hexame′ters such as′ this;
+    But′ the Pen′tameters′
+      are′ even more′ excellent′.]
+
+In spite of some awkwardness and lack of elegance in diction, the
+Xenions became very popular in Germany on account of the profound ideas
+embodied in many of them. The shortcomings of their form have been
+forgotten on account of their intrinsic value, and there is perhaps no
+poetry quoted more frequently than these pithy aphorisms. They have
+become household words in Germany and deserve a place of honor in the
+literature of the world.
+
+
+
+
+The Elegiac Distich.
+
+
+The form of the Xenions is, like their Roman prototype, the elegiac
+distich.
+
+The elegiac distich has rarely, if ever, been used in English poetry,
+although there is much classical beauty in its rhythm. It consists of
+alternate dactylic hexameters and pentameters which in ancient Greece
+were recited to the accompaniment of the flute, and went by the name
+of “elegies,” the etymology of which has nothing to do (as has been
+assumed) with lamentations, but probably means flute-songs.
+
+A meter in Greek prosody is comparable to the musical bar, while a
+foot is a rhythmic figure. Some meters, such as the iambic (◡–◡–) and
+trochaic (–◡–◡), consist of two feet, but the dactylic meters(–◡◡)
+consist of one foot only.[C] Accordingly a trochaic trimeter consists
+of three meters or six feet; while six dactyls, the last one of which
+is always catalectic, are called a dactylic hexameter. Catalectic means
+“ending” or “terminating,” signifying that every line is mutilated at
+the end. A catalectic meter lacks the last syllable, which, musically
+considered, is to be regarded as a pause so as to make a musical halt
+between the lines. According to another rule, the last syllable is
+always indifferent, i. e., it may be either long or short (̲◡).
+
+  [C] The name “dactyl” or “finger” (Greek δάκτυλος) indicates that,
+  like a finger, it consists of one long and two short members.
+
+The dactylic (or, as it is also called, the heroic) hexameter is too
+long to be read in one breathing, so it is divided into two, sometimes
+into three parts, and the division is called a _caesura_, i. e., a
+cut or incision. This division of the line is irregular and we do not
+hesitate to say that to its irregularity the hexameter owes a peculiar
+charm, for it breaks the monotony of the dactylic rhythm.
+
+The new start after the caesura will never be dactylic (–◡◡) like the
+beginning of the line; it may be anapaestic (◡◡–) or iambic (◡–); but
+not dactylic. The break should occur either after an arsis (–) or
+after a trochee (–◡) so as to change the character of the latter part
+of the hexameter from a descending into an ascending meter. The former,
+the descending meter which begins with a long syllable, is halting and
+possesses an attitude of holding back, of dignity, of assertion, while
+the descending meter rushes forward from a short syllable to a long
+one; it is progressive, it rises. The latter indicates struggle while
+the former shows strength and the calmness of victory.
+
+Every caesura has its own name in Greek and the most common caesura
+cuts the verse in the third meter between the arsis, the long accented
+syllable, and the thesis, i. e., the two short syllables or the one
+long unaccented syllable. Since in prosody two short syllables are
+equivalent to one long syllable, they are regarded as half a meter, and
+so this caesura is called penthemimeres πενθημιμερὴς which means the
+one after the fifth half-meter. It runs thus:
+
+  –◡◡-◡◡–||◡◡–◡◡–◡◡–◡
+
+There is another caesura after the seventh half-meter. It is called in
+Greek hephthemimeres (ἑφθημιμερὴς) and runs thus:
+
+  –◡◡–◡◡–◡◡–||◡◡–◡◡–◡
+
+Caesuras after the third and after the ninth half-meter are rarely
+used; they occur sometimes in Latin but the latter is regarded as
+inadmissible in Greek.
+
+Almost as common as the penthemimeres is the caesura between the two
+short syllables in the third meter; and because it cuts off from the
+meter a trochee (thus –◡||◡) it is called κατὰ τρίτον τροχαῖον, i. e.,
+the caesura “after the third trochee.” It runs thus:
+
+  –◡◡–◡◡–◡||◡–◡◡–◡◡–◡
+
+Caesuras after the second trochee are rare and after the fourth are
+strictly forbidden in Greek metrics.
+
+Finally we must mention the caesura after the end of the fourth
+measure, which is not uncommon in bucolic poetry, picturing the
+peaceful life of the ancient Greek cowboys, so different from the
+cowboys of the American Wild West, and it has therefore received the
+name, “bucolic caesura.” It is rare in heroic poems; nevertheless it
+occurs sometimes and its occasional appearance is effective, for the
+combination of one dactyl with one trochee (–◡◡–◡) gives a euphonious
+ring to the verse.
+
+The heroic hexameter is best known to the English-reading public from
+Longfellow’s _Evangeline_. It has not been a favorite with them
+mainly because of the awkwardness with which it has been handled and
+the boldness with which short syllables are frequently used to serve
+as long syllables. We may say that at present the German language
+has proved itself most apt in reproducing this classical measure, in
+which, however, the long syllable (_arsis_) is to be replaced by
+a decidedly accented syllable, while the place of a short syllable
+(_thesis_) is taken by an unaccented syllable. This makes it
+possible that the same word may, according to position, in one place
+serve as a short, in another as a long, syllable, while the prosody of
+the classical languages is more severe. There a syllable is either long
+or short, and a short syllable can only become long through subsequent
+consonants, which is called “length through position.”
+
+We have to recognize the fact that Teutonic languages are qualitative
+while the classic languages are quantitative. This means that in the
+former the accent of the word is predominant and wrong accents render
+a word positively unintelligible, while in the latter the word-accent
+is of less account. It is of little consequence in English whether we
+pronounce “ĕgg” or “aigg,” but it makes a decided difference whether
+we say “in′fidel” or “infi′del.” In modern French however, we may
+pronounce with propriety either “_la mai′son_” or “_la maison′_”. And
+this character of the Teutonic languages which renders quality of
+accent so prominent in speech is the reason why they tend to brevity,
+for they contract words more and more until, as is the case in English,
+most of their forms are reduced to monosyllables. Thus the Gothic word
+_habededian_ is contracted in Middle German into _habete_, (viz.,
+_haben_--_tat_ = “I did have”), in modern German into _hatte_, and in
+English into “had.” The Teutonic languages neglect the unimportant and
+unaccented portions of the word, and wherever they can be disposed of
+drop them entirely or fuse them into the main syllable.
+
+Another reason why the hexameter is not liked in English is on account
+of the length of the verse. If the reader has first to search for the
+caesura, for the place where he can take breath, he feels discouraged
+at the long line that stretches before him like a road through the
+desert, and for this reason we deem it an improvement to print dactylic
+verses so as to begin a new line with the caesura. It renders the
+reading of the line easier in the measure, as the break in the verse is
+thus most easily taken in by the eye.
+
+       *       *       *       *       *
+
+Since we have been discussing metrical details at some length, we may
+be permitted to add a few comments on the iambic trimeter which in
+English is really nothing else but what is commonly known as blank
+verse. This verse is very generally misunderstood and we have nowhere
+seen it properly explained in English books on prosody.
+
+The blank verse is the most common and best adapted form for dignified
+speech in both the dialogue and the monologue of the drama. We quote as
+a typical verse the first line of Hamlet’s soliloquy:
+
+    “To be or not to be, that is the question.”
+
+The meter is a catalectic iambic trimeter and there is only one rule of
+importance, viz., that at the beginning and after caesuras an iambus
+◡– can be replaced by a trochee metric: –◡. A scheme of the meter runs
+thus:
+
+  ◡–◡–|◡–◡–|◡–◡||
+
+Or in musical script thus:
+
+[Music]
+
+The last long syllable, sometimes even the whole last foot, is omitted
+or, more correctly, is replaced by a pause. We may write it thus:
+
+[Music]
+
+This latter case, originally merely allowable, has become very frequent
+in English, because the English language is rich in monosyllables so
+as to make it sometimes difficult to end the verse with an unaccented
+(i. e., a short) syllable, but this custom has produced the impression
+that the verse consists of five iambi, and among people but little
+versed in the rules of classical poetry who forget that an iambic meter
+consists of two feet, has given rise to the error that blank verse is
+an iambic pentameter. Strange to say this mistake is now perpetuated in
+almost all our text-books.
+
+       *       *       *       *       *
+
+After this digression on the iambic trimeter we shall make, in
+conclusion, a few comments on the dactylic pentameter.
+
+The pentameter, i. e., “a five-measure,” is so called because it
+consists of twice two and a half dactylic meters thus:
+
+  –◡◡–◡◡–
+
+In reality the pentameter is a repetition of a penthemimeres.
+
+Two short syllables may always be replaced in elegiac distichs by one
+long syllable, with the exception of the fifth meter of the hexameter
+and the latter half of the pentameter. The schedule of a distich,
+accordingly, is thus:
+
+     —    —    —    —   —    —
+  –◡◡–◡◡–◡◡–◡◡–◡◡–◡◡–◡
+
+    —    —
+  –◡◡–◡◡–||–◡◡–◡◡–
+
+Considering the fact that the measures of Greek prosody are comparable
+to musical bars in which time and not accent is the decisive element,
+we readily understand that the name “pentameter” is a misnomer, for the
+pentameter consists as much as the hexameter of six full dactylic bars,
+only that there is a pause of one-half meter after each two and a half
+meters. Expressed in musical characters, the distich reads as follows:
+
+[Music]
+
+
+
+
+                             INTRODUCTORY.
+
+
+Our Purpose.
+
+
+    These gay verses, revering the good,
+        will annoy the philistine,
+
+    Ridicule bigots, and smite
+        hypocrites, as they deserve.
+
+
+Vorsatz
+
+    Den Philister verdriesse,
+        den Schwärmer necke, den Heuchler
+
+    Quäle der fröhliche Vers,
+        der nur das Gute verehrt.
+
+
+Our Method.
+
+    Wherefore in verse are we speaking?
+      We trust that the verse is impressive.
+
+    When we were talking in prose,
+      never ye listened to us.
+
+
+Das Mittel.
+
+    Warum sagst du uns das in Versen?
+      Die Verse sind wirksam,
+
+    Spricht man in Prosa zu euch,
+      Stopft ihr die Ohren euch zu.
+
+
+The Distich.
+
+    In the hexameter rises
+      the jet of a wonderful fountain,
+
+    Which in a graceful descent
+      back as pentameter falls.
+
+
+Das Distichon.
+
+    Im Hexameter steigt
+      des Springquells flüssige Säule,
+
+    Im Pentameter drauf
+      fällt sie melodisch herab.
+
+
+Boisterous.
+
+    Times have I witnessed run mad,
+      and never let slip the occasion,
+
+    Following fashion’s command,
+      madly in madness to join.
+
+
+Uebermüthig.
+
+    Tolle Zeiten hab’ ich erlebt
+      und hab’ nicht ermangelt,
+
+    Selbst auch thöricht zu sein,
+      Wie es die Zeit mir gebot.
+
+
+Our Common Fate.
+
+    O, how we struggle and hate!
+      Inclinations, opinions divide us.
+
+    Yet in the meantime thy locks
+      turn into silver like mine.
+
+
+Das gemeinsame Schicksal.
+
+    Siehe, wir hassen, wir streiten,
+      es trennet uns Neigung und Meinung;
+
+    Aber es bleichet indes
+      dir sich die Locke, wie mir.
+
+
+The Last Martyr.
+
+    That you may roast me like Huss,[1]
+      it is possible; but it is certain,
+
+    After me cometh the swan
+      who will my mission complete.
+
+
+Der letzte Märtyrer.
+
+    Auch mich bratet ihr noch
+      als Huss vielleicht, aber wahrhaftig!
+
+    Lange bleibet der Schwan,
+      der es vollendet, nicht aus.
+
+
+
+
+                            SOUL AND WORLD.
+
+
+Our Own.
+
+    Common possessions are thoughts,
+      while your sentiment only is private.
+
+    Shall He your property be,
+      feel Him--the God whom you think.
+
+
+Das eigne Ideal.
+
+    Allen gehört, was du denkst,
+      dein eigen ist nur, was du fühlest,
+
+    Soll er dein Eigenthum sein,
+      fühle den Gott, den du denkst.
+
+
+Harmony.
+
+    Reason, what is it? The voice of the whole;
+      and thy heart is thy selfhood.
+
+    Happy thou art, if for aye
+      reason will dwell in thy heart.
+
+
+Schöne Individualität.
+
+    Stimme des Ganzen ist deine Vernunft,
+      dein Herz bist du selber:
+
+    Wohl dir, wenn die Vernunft
+      immer im Herzen dir wohnt.
+
+
+The Key.
+
+    If, friend, thyself thou wilt fathom,
+        observe how thy fellows are acting.
+
+    If thou thy fellows wilt know,
+        search in thine own heart of hearts.
+
+
+Der Schlüssel.
+
+    Willst du dich selber erkennen,
+        so sieh, wie die Andern es treiben.
+
+    Willst du die Andern verstehn,
+        blick in dein eigenes Herz.
+
+
+Worth and Value.
+
+    Dost thou _possess_ things, impart them to me,
+        and I’ll pay thee their value.
+
+    But, friend, if something thou _art_,
+        let us our souls interchange!
+
+
+Das Werthe und Würdige.
+
+    Hast du etwas, so gib es her
+        und ich zahle, was recht ist,
+
+    Bist du etwas, o dann
+        tauschen die Seelen wir aus.
+
+
+Nature and Reason.
+
+    Reason may build above nature,
+      but findeth there emptiness only,
+
+    Genius will nature increase,
+      nature, however, it adds.
+
+
+Der Genius.
+
+    Ueber Natur hinaus baut die Vernunft
+      doch nur in das Leere,
+
+    Du nur, Genius, mehrst
+      in der Natur die Natur.
+
+
+Oneness.
+
+    Beauty is always but one,
+      though the beautiful changes and varies,
+
+    And ’tis the change of the one,
+      which thus the beautiful forms.
+
+
+Schönheit.
+
+    Schönheit ist ewig nur Eine,
+      doch mannichfach wechselt das Schöne,
+
+    Dass es wechselt, das macht
+      eben das Eine nur schön.
+
+
+Various Destinies.
+
+    Millions of folks are kept busy
+      the race of mankind propagating,
+
+    But in the minds of a few,
+      only, humanity grows.
+
+
+Die verschiedene Bestimmung.
+
+    Millionen sorgen dafür,
+      dass die Gattung bestehe,
+
+    Aber durch Wenige nur
+      pflanzet die Menschheit sich fort.
+
+
+The Immutable.
+
+    Time, unimpeded, is hastening on.
+      Why? It seeketh the constant.
+
+    He who is faithful will bind
+      time with eternity’s ties.
+
+
+Das Unwandelbare.
+
+    “Unaufhaltsam enteilet die Zeit.”
+      Sie sucht das Beständ’ge.
+
+    Sei getreu, und du legst
+      ewige Fesseln ihr an.
+
+
+The Law of Nature.
+
+    Thus it was always, my friend;
+      it will be so forever, that weakness
+
+    Claims in its favor the rule,
+      yet it is strength that succeeds.
+
+
+Das Naturgesetz.
+
+    So war’s immer, mein Freund,
+      und so wird’s bleiben. Die Ohnmacht
+
+    Hat die Regel für sich,
+      aber die Kraft den Erfolg.
+
+
+Zeus to Heracles.
+
+    Thou hast divinity, son,
+      not acquired by drinking my nectar;
+
+    But thy divinity has
+      conquered the nectar for thee.
+
+
+Zeus zu Herkules.
+
+    Nicht aus meinem Nektar
+      hast du dir Gottheit getrunken;
+
+    Deine Götterkraft war’s,
+      die dir den Nektar errang.
+
+
+Folly and Insanity.
+
+    Wit, if it awkwardly misses the point,
+      is regarded as silly,
+
+    But when a genius slips,
+      madly in fury he raves.
+
+
+Aberwitz und Wahnwitz.
+
+    Ueberspringt sich der Witz,
+      so lachen wir über den Thoren,
+
+    Gleitet der Genius aus,
+      ist er dem Rasenden gleich.
+
+
+Motives and Action.
+
+    “God only seeth the heart!”
+      Since the heart can be seen by God only,
+
+    Friend, let us also behold
+      something that is not amiss.
+
+
+Inneres und Aeusseres.
+
+    “Gott nur siehet das Herz.”
+      Drum eben, weil Gott nur das Herz sieht,
+
+    Sorge, dass wir doch auch
+      etwas Erträgliches sehn.
+
+
+Baal Priests.
+
+    Liberty sacred and holy,
+      man’s noble endeavor for progress,
+
+    Never couldst thou for thy cause
+      worse representatives find.
+
+
+Baalspfaffen.
+
+    Heilige Freiheit! Erhabener Trieb
+      der Menschen zum Bessern!
+
+    Wahrlich, du konntest dich nicht
+      schlechter mit Priestern versehn!
+
+
+Salvation.
+
+    Two are the roads out of life,
+      which to all lie equally open:
+    To the ideal the one
+      leadeth, the other to death.
+
+    Venture to make thine escape
+      on the former while time still may grant it,
+    Ere on the latter thou art
+      doomed to destruction and death.
+
+
+Die idealische Freiheit.
+
+    Aus dem Leben heraus
+      sind der Wege zwei dir geöffnet:
+    Zum Ideale führt
+      einer, der andre zum Tod.
+
+    Siehe, dass du bei Zeit
+      noch frei auf dem ersten entspringest,
+    Ehe die Parze mit Zwang
+      dich auf dem andern entführt.
+
+
+Human Life.
+
+    When we are starting in life,
+      an eternity opens before us.
+
+    Yet e’en the wise at its close
+      narrowly limited end.
+
+
+Menschliches Wirken.
+
+    An dem Eingang der Bahn
+      liegt die Unendlichkeit offen,
+
+    Doch mit dem engesten Kreis
+      höret der Weiseste auf.
+
+
+Immortality.
+
+    Art thou afraid, friend, of death,
+      and for life everlasting art yearning?
+
+    Live as a part of the whole!
+      When thou art gone it remains.
+
+
+Unsterblichkeit.
+
+    Vor dem Tode erschrickst du?
+      Du wünschest, unsterblich zu leben?
+
+    Leb’ im Ganzen! Wenn du
+      lange dahin bist, es bleibt.
+
+
+Indestructible.
+
+    Float down-stream to the ocean,
+      O ice-floe! And if as an ice-floe
+
+    Reachest thou not the great main,
+      surely thou’lt find it as drops.
+
+
+Unsterblich.
+
+    Schwimme, du mächtige Scholle, nur hin!
+      und kommst du als Scholle
+
+    Nicht hinunter, du kommst
+      doch wohl als Tropfen ins Meer.
+
+
+God, World, and Man.
+
+    Is it a secret abysmal,
+      what God, what the world, and what man is?
+
+    No! But the truth is not liked:
+      therefore the secret remains.
+
+
+Gott, Welt und Mensch.
+
+    Ist’s denn so grosses Geheimniss,
+      was Gott und der Mensch und die Welt sei?
+
+    Nein! Doch Niemand hört’s
+      gerne; da bleibt es geheim.
+
+
+
+
+                        CRITICAL AND LITERARY.
+
+
+The Poet Addresses His Muse.
+
+    How I could live without thee,
+      I conceive not. But horror o’ertakes me,
+
+    Seeing these thousands and more
+      who without thee can exist.
+
+
+An die Muse.
+
+    Was ich ohne dich wäre,
+      ich weiss es nicht; aber mir grauet,
+
+    Seh’ ich, was ohne dich
+      Hundert’ und Tausende sind.
+
+
+To Incompetent Reviewers.
+
+    Difficult ’tis to achieve;
+      to find fault, though, is easy, O critics!
+
+    Shrink not, when finding a flaw,
+      excellence freely to praise.
+
+
+Die Unberufenen.
+
+    Tadeln ist leicht, erschaffen so schwer;
+      ihr Tadler des Schwachen,
+
+    Habt ihr das Treffliche denn
+      auch zu belohnen ein Herz?
+
+
+Wolf’s Homer.
+
+    Seven Greek cities have boasted
+      of being the birthplace of Homer.
+
+    Since he is torn by the Wolf,[2]
+      ev’ry one taketh her piece.
+
+
+Der Wolfische Homer.
+
+    Sieben Städte zankten sich drum,
+      ihn geboren zu haben,
+
+    Nun da der Wolf ihn zerriss,
+      nehme sich jede ihr Stück.
+
+
+Intellectual Aristocracy.
+
+    Easily wins an enthusiast
+      disciples by stirring the masses.
+    Thinkers of solidest stamp
+      find but a scanty support.
+
+    Pictures that miracles work
+      are invariably daubs without value,
+    Products of genuine art
+      suit not the taste of the mob.
+
+
+Geistige Aristokratie.
+
+    Schüler macht sich der Schwärmer
+      genug und rühret die Menge,
+    Wenn der vernünftige Mann
+      einzelne Liebende zählt.
+
+    Wunderthätige Bilder
+      sind meist nur schlechte Gemälde:
+    Werke des Geists und der Kunst
+      sind für den Pöbel nicht da.
+
+
+Bad Times.
+
+    Language philosophers spoil,
+      so is logic distorted by poets;
+
+    Sound common sense in this way
+      badly is crippled for life.
+
+
+Böse Zeiten.
+
+    Philosophen verderben die Sprache,
+      Poeten die Logik,
+
+    Und mit dem Menschenverstand
+      kommt man durch’s Leben nicht mehr.
+
+
+Mutual Admiration Society.
+
+    Be not so dainty, dear sirs.
+      Are ye anxious to heap on each other
+
+    Honor and praise, ye should rail
+      one at the other with vim.
+
+
+Auf zwei Sudler, die einander loben.
+
+    Nicht so, nicht so, ihr Herrn.
+      Wollt ihr einander zu Ehren
+
+    Bringen, muss vor der Welt
+      Einer den Andern verschrei’n.
+
+
+Dilettante.
+
+    If thou succeed with a verse
+      in a language worked out and consummate,
+
+    Shaping thy thought and thy rhyme,
+      think’st thou a poet thou art.
+
+
+Dilettant.
+
+    Weil ein Vers dir gelingt
+      in einer gebildeten Sprache,
+
+    Die für dich dichtet und denkt,
+      glaubst du schon Dichter zu sein.
+
+
+To One Author.
+
+    Tell me the things that you know,
+      and I’ll be glad to receive it.
+
+    But if you will give yourself,
+      spare me, my friend, if you please.[3]
+
+An ⁕.
+
+    Theile mir mit, was du weisst,
+      ich werd’ es dankbar empfangen,
+
+    Aber du gibst mir dich selbst,
+      damit verschone mich, Freund.
+
+
+To Another Author.
+
+    Please do not try to teach facts,
+      for we care not a straw for the subject.
+
+    All we do care for are facts
+      as they are treated by _you_.[4]
+
+
+An ⁕⁕.
+
+    Du willst Wahres mich lehren?
+      Bemühe dich nicht, nicht die Sache
+
+    Will ich durch dich, ich will
+      dich durch die Sache nur sehn.
+
+
+Wanted.
+
+    Wanted, a servant who writeth
+      a legible hand, and who also
+
+    Fairly can spell, but he must
+      leave the _belles lettres_ alone.
+
+
+Sachen so gesucht werden.
+
+    Einen Bedienten wünscht man zu haben,
+      der leserlich schreibet
+
+    Und orthographisch, jedoch
+      nichts in _belles lettres_ gethan.
+
+
+Artifice.
+
+    Do you desire the applause
+        of the worldly as well as the pious,
+
+    Picture licentiousness, but
+        picture the Devil besides.[5]
+
+
+Der Kunstgriff.
+
+    Wollt ihr zugleich den Kindern der Welt
+        und den Frommen gefallen?
+
+    Malet die Wollust -- nur
+        malet den Teufel dazu.
+
+
+A Discussion.
+
+    One, we can hear, speaks after the other,
+        but no one gives answer.
+
+    Several monologues are,
+        certainly, not a debate.[6]
+
+
+Das philosophische Gespräch.
+
+    Einer, das höret man wohl,
+        spricht nach dem Andern, doch Keiner
+
+    Mit dem Andern; wer nennt
+        zwei Monologen Gespräch?
+
+
+
+
+                        SATIRICAL AND PERSONAL.
+
+
+The Great Moment.
+
+    This our century, freely I grant,
+      has begot a great epoch;
+
+    But the great moment, alas!
+      findeth a very small race.
+
+
+Der Zeitpunkt.
+
+    Eine grosse Epoche
+      hat das Jahrhundert geboren,
+
+    Aber der grosse Moment
+      findet ein kleines Geschlecht.
+
+
+To Some Critics.
+
+    Wretches! Speak wretched of me,
+      but oblige me by truthfully adding:
+
+    Earnest is he. For the rest,
+      wretches, speak wretched of me.
+
+
+An die Herren H. J. K.
+
+    Lumpen! redet lumpig von mir,
+      doch saget: es war ihm
+
+    Ernst! und redet sodann,
+      Lumpen, ihr lumpig von mir.
+
+
+The Vinculum.
+
+    How has nature united
+      in man the sublime and the vulgar?
+
+    Vanity did she ensconce
+      right in the middle of both.
+
+
+Das Verbindungsmittel.
+
+    Wie verfährt die Natur,
+      um Hohes und Niedres im Menschen
+
+    Zu verbinden? Sie stellt
+      Eitelkeit zwischen hinein.
+
+
+Present Generation.
+
+    Has it been always as now?
+      O how strange is to-day’s generation!
+
+    Youthful is only old age,
+      old, alas! only is youth.
+
+
+Jetzige Generation.
+
+    War es immer wie jetzt?
+      Ich kann das Geschlecht nicht begreifen.
+
+    Nur das Alter ist jung,
+      Ach! und die Jugend ist alt.
+
+
+To Those in Authority.
+
+    Don’t be disturbed by the barking;
+      remain in your places. The barkers
+
+    Eagerly wish for your seats,
+      there to be barked at themselves.[7]
+
+
+An die Oberen.
+
+    Immer bellt man auf euch!
+      bleibt sitzen! es wünschen die Beller
+
+    Jene Plätze, wo man
+      ruhig das Bellen vernimmt.
+
+
+Questionable Investigation.
+
+    Gentlemen, boldly dissect,
+      for dissection is very instructive.
+
+    Woe, none the less, to the frog
+      who has to offer his leg.
+
+
+Kritische Studien.
+
+    Schneidet, schneidet, ihr Herrn,
+      durch Schneiden lernet der Schüler,
+
+    Aber wehe dem Frosch,
+      der euch den Schenkel muss leihn!
+
+
+The Spirit and the Letter.
+
+    Truly, you may for a time
+      still deceive with your valueless counters,
+
+    But in the end, my dear sirs,
+      debts must be paid in good coin.
+
+
+Der Geist und der Buchstabe.
+
+    Lange kann man mit Marken,
+      mit Rechenpfennigen zählen,
+
+    Endlich, es hilft nichts, ihr Herrn,
+      muss man den Beutel doch ziehn.
+
+
+The Sense of a Committee.
+
+    Ev’ry one singly considered,
+      is sensible, doubtless, and clever;
+
+    But in a body the whole
+      number of them is a dunce.
+
+
+Gelehrte Gesellschaft.
+
+    Jeder, siehst du ihn einzeln,
+      ist leidlich klug und verständig,
+
+    Sind sie _in corpore_,
+      gleich wird ein Dummkopf daraus.
+
+
+Taste in a Watering Place.
+
+    This is a singular country;
+      the springs here have taste and the rivers;
+
+    Taste, though, is not to be found
+      in the inhabitants’ minds.
+
+
+Gesundbrunnen zu ⁕⁕⁕.
+
+    Seltsames Land! Hier haben
+      die Flüsse Geschmack und die Quellen,
+
+    Bei den Bewohnern allein
+      hab’ ich noch keinen verspürt.
+
+
+Sample of Modern Criticism.
+
+    You, among poets, alone possess worth,
+      for to imitate nature,
+
+    Nevermore would you object
+      platitudes freely to use.
+
+
+Probe moderner Kritik.
+
+    Du nur bist mir der würdige Dichter!
+      Es kommt dir auf eine
+
+    Platitüde nicht an,
+      nur um natürlich zu sein.
+
+
+Nicolai’s Book on the Source of the Danube.[8]
+
+    Nothing he likes that is great;
+      for that reason the shallow inquirer
+
+    Traces, great Danube, thy course
+      till thou art shallow and flat.
+
+
+Nikolai’s Buch über die Quellen der Donau.
+
+    Nichts kann er leiden was gross ist
+      und mächtig, drum, herrliche Donau,
+
+    Spürt dir der Häscher so lang
+      nach, bis er seicht dich ertappt.
+
+
+The Collector.
+
+    Always he fought against form,
+      and he knows it. He, during his lifetime,
+
+    Gathered with trouble and pain
+      formless material in heaps.
+
+
+Formalphilosophie.
+
+    Allen Formen macht er den Krieg,
+      er weiss wohl, zeitlebens
+
+    Hat er mit Müh’ und Noth
+      Stoff nur zusammengeschleppt.
+
+
+Crudity.
+
+    Can you not touch it with hands,
+      then, O blind one, you think it chimeric!
+
+    And, ’tis a pity, your hands
+      sully whatever they touch.
+
+
+Das grobe Organ.
+
+    Was du mit Händen nicht greifst,
+      das scheint dir Blindem ein Unding,
+
+    Und betastest du was,
+      gleich ist das Ding auch beschmutzt.
+
+
+Nicolai’s Motto.
+
+    Truth I am preaching. ’Tis truth;
+      and nothing but truth--understand me.
+
+    My truth, of course! For I know
+      none to exist but my own.
+
+
+Das Motto.
+
+    Wahrheit sag’ ich euch, Wahrheit
+      und immer Wahrheit, versteht sich:
+
+    Meine Wahrheit; denn sonst
+      ist mir auch keine bekannt.
+
+
+A Publisher.
+
+    Look at this press which I own.
+      The machine when it printeth is thinking.
+
+    Here I present you a book
+      which as a sample may serve.
+
+
+Verleger von P⁕⁕ Schriften.
+
+    Eine Maschine besitz’ ich,
+      die selber denkt, wie sie drucket,
+
+    Obengenanntes Werk
+      zeig’ ich zur Probe hier vor.
+
+
+In Comparison with Socrates.
+
+    Pythia dubbed him a sage,
+      when of ignorance boldly he boasted.
+
+    Friend, how much wiser art thou!
+      What he pretended, thou art.
+
+
+Sokrates.
+
+    Weil er unwissend sich rühmte,
+      nannt’ ihn Apollo den Weisen.
+
+    Freund, wie viel weiser bist du;
+      was er blos rühmte, du bist’s.
+
+
+To Certain Moralists.
+
+    ’Tis a great pity, dear sirs,
+      to espouse the right cause you are anxious,
+
+    But you are void of good sense:
+      reason and judgment are gone.
+
+An die Herren N. O. P.
+
+
+    Euch bedaur’ ich am meisten,
+      ihr wähltet gern das Gute,
+
+    Aber euch hat die Natur
+      gänzlich das Urtheil versagt.
+
+
+Martyrs.
+
+    Nail to the cross the fanatic
+      as soon as he reacheth the thirties!
+
+    For when he knoweth the world,
+      surely the dupe will turn rogue.
+
+
+Guter Rathschlag.
+
+    Jeglichen Schwärmer schlagt mir ans Kreuz
+      im dreissigsten Jahre;
+
+    Kennt er nur einmal die Welt,
+      wird der Betrogne der Schelm.
+
+
+The Brothers Stolberg.[9]
+
+    Since you reviled the Olympian gods,
+      Apollo has thrown you
+
+    Down from Parnassus. You now
+      enter the heavenly realm.
+
+
+Der Ersatz.
+
+    Als du die griechischen Götter geschmäht,
+      da warf dich Apollo
+
+    Von dem Parnasse; dafür
+      gehst du ins Himmelreich ein.
+
+
+The Connoisseur.
+
+    Vases of classical art!
+      O how easily live I without them!
+
+    But a Majolica pot
+      maketh me happy and rich.[10]
+
+
+Der Kenner.
+
+    Alte Vasen und Urnen!
+      Das Zeug wohl könnt’ ich entbehren;
+
+    Doch ein Majolica-Topf
+      machte mich glücklich und reich.
+
+
+Sentimentalists.
+
+    Never thought I very highly
+      of people that are sentimental.[11]
+
+    When an occasion arrives,
+      grossly their meanness appears.
+
+
+H. S.
+
+    Auf das empfindsame Volk
+      hab’ ich nie was gehalten, es werden,
+
+    Kommt die Gelegenheit nur,
+      schlechte Gesellen daraus.
+
+
+The Prophet.
+
+    Pity ’tis, when thou wast born,
+      that Nature created but one man!
+
+    Stuff for a gentleman is,
+      and for a scoundrel, in thee.[12]
+
+
+Der Prophet.
+
+    Schade, dass die Natur
+      nur Einen Menschen aus dir schuf,
+
+    Denn zum würdigen Mann
+      war und zum Schelmen der Stoff.
+
+
+The Half-Bird.
+
+    Vainly the ostrich endeavors to fly:
+      he but awkwardly saileth
+
+    When he is moving his feet
+      over the issueless sand.[13]
+
+
+Der Halbvogel.
+
+    Fliegen möchte der Strauss,
+      allein er rudert vergeblich,
+
+    Ungeschickt rühret der Fuss
+      immer den leidigen Sand.
+
+
+Partisan Spirit.
+
+    Where there are parties, the people
+      are siding with zeal on each issue.
+
+    Years must elapse before both
+      join in the middle their hands.
+
+
+Parteigeist.
+
+    Wo Parteien entstehn,
+      hält Jeder sich hüben und drüben,
+
+    Viele Jahre vergehn,
+      eh’ sie die Mitte vereint.
+
+
+
+
+                      THE PHILOSOPHERS IN HADES.
+
+
+The Poet Speaks.
+
+    Good that I meet you together,
+      my friends; the thing that is needful
+
+    Made me descend to this place.
+      Here I can question you all.
+
+
+Philosophen.
+
+    Gut, dass ich euch, ihr Herren,
+      _in pleno_ beisammen hier finde,
+
+    Denn das Eine, was noth,
+      treibt mich herunter zu euch.
+
+
+Aristotle.
+
+    Question right out, my dear sir,
+      for we read philosophical journals,
+
+    We keep instructed in Hell,[14]
+      whatsoe’er happens on earth.
+
+
+Aristoteles.
+
+    Gleich zur Sache, mein Freund.
+      Wir halten die Jenaer Zeitung
+
+    Hier in der Hölle und sind
+      längst schon von Allem belehrt.
+
+
+Urgent.
+
+    Gentlemen, listen! I’ll stay here
+      until you propose me a statement
+
+    That’s universally true,
+      one that we all can accept.
+
+
+Dringend.
+
+    Desto besser! So gebt mir,
+      ich geh’ euch nicht eher vom Leibe,
+
+    Einen allgiltigen Satz,
+      und der auch allgemein gilt.
+
+
+Descartes.
+
+    _Cogito ergo sum._
+      I am thinking and therefore existing.
+
+    If but the former is true,
+      there’s of the latter no doubt.
+
+
+Descartes.
+
+    _Cogito ergo sum._
+      Ich denke und mithin, so bin ich,
+
+    Ist das Eine nur wahr,
+      ist es das Andre gewiss.
+
+
+My Answer.
+
+    If I am thinking, I am.
+      Very well! But who’s all the time thinking?
+
+    Often I was, I confess,
+      when I thought nothing at all.
+
+
+Ich.
+
+    Denk ich, so bin ich! Wohl!
+      Doch wer wird immer auch denken?
+
+    Oft schon war ich, und hab’
+      wirklich an gar nichts gedacht!
+
+
+Spinoza.
+
+    Things do exist, sir, and therefore
+      a thing of all things is existing;
+
+    And in the thing of all things
+      swim we just such as we are.
+
+
+Spinoza.
+
+    Weil es Dinge doch gibt,
+      so gibt es ein Ding aller Dinge,
+
+    In dem Ding aller Ding’
+      schwimmen wir, wie wir so sind.
+
+
+Berkeley.
+
+    True is the opposite, let me declare.
+      Besides me there is nothing.
+
+    Everything else, you must know,
+      is but a bubble in me.
+
+
+Berkeley.
+
+    Just das Gegentheil sprech’ ich.
+      Es gibt kein Ding als mich selber!
+
+    Alles andre, in mir
+      steigt es als Blase nur auf.
+
+
+Leibniz.
+
+    Two things exist, I admit,
+      the world and the soul; of which neither
+
+    Knows of the other; yet both
+      indicate oneness at last.
+
+
+Leibniz.
+
+    Zweierlei Dinge lass ich passiren,
+      die Welt und die Seele,
+
+    Keins weiss vom andern und doch
+      deuten sie beide auf Eins.
+
+
+Kant.
+
+    Naught do I know of the thing,
+      and naught of the soul know I either.
+
+    Both to me merely appear;
+      but by no means are they sham.
+
+
+Kant.
+
+    Von dem Ding weiss ich nichts,
+      und weiss auch nichts von der Seele,
+
+    Beide erscheinen mir nur,
+      aber sie sind doch kein Schein.
+
+
+David Hume.
+
+    Do not converse with those people,
+      for Kant has thrown all in confusion.
+
+    Me you must ask; for I am,
+      still here in Hell,[14] like myself.
+
+
+David Hume.
+
+    Rede nicht mit dem Volk,
+      der Kant hat sie alle verwirret,
+
+    Mich frag’, ich bin mir selbst
+      auch in der Hölle noch gleich.
+
+
+Fichte.
+
+    _I_ am _I_, and I posit myself;
+      but in case I should posit
+
+    Self as not posited,--well,
+      then the not-I is produced.
+
+
+Fichte.
+
+    Ich bin ich, und setze mich selbst,
+      und setz’ ich mich selber
+
+    Als nicht gesetzt, nun gut!
+      setz’ ich ein Nicht-Ich dazu.
+
+
+Reinhold.[15]
+
+    Surely conception there is;
+      it proves that a concept existeth
+
+    And a conceiver, no doubt;
+      which altogether make three.
+
+
+Reinhold.
+
+    Vorstellung wenigstens ist;
+      ein Vorgestelltes ist also,
+
+    Ein Vorstellendes auch,
+      macht, mit der Vorstellung, drei!
+
+
+My Answer.
+
+    These propositions, O sages,
+      possess but small value; they’re trifling.
+
+    Make me some statement that helps,
+      and let it be to the point.
+
+
+Ich.
+
+    Damit lock’ ich, ihr Herrn,
+      noch keinen Hund aus dem Ofen,
+
+    Einen erklecklichen Satz
+      will ich, und der auch was setzt.
+
+
+K. Ch. F. Schmidt, the Moral Philosopher.
+
+    In theoretical regions,
+      no more can be found by inquirers.
+
+    But still the practical word
+      holdeth: “Thou canst, for thou shalt.”
+
+
+K. Ch. F. Schmidt.
+
+    Auf theoretischem Feld
+      ist weiter nichts mehr zu finden,
+
+    Aber der praktische Satz
+      gilt doch: Du kannst, denn du sollst!
+
+
+My Answer.
+
+    Well, I expected it so;
+      for whene’er you have nothing to answer,
+
+    People like you will at last
+      still to our conscience appeal.
+
+
+Ich.
+
+    Dacht’ ich’s doch! Wissen sie nichts
+      Vernünftiges mehr zu erwidern,
+
+    Schieben sie’s einem geschwind
+      in das Gewissen hinein.
+
+
+Philosophy.
+
+    Which will survive of the many
+      philosophies? Surely I know not!
+
+    Always philosophy though,
+      truly I hope, will remain.
+
+
+Die Philosophien.
+
+    Welche wohl bleibt von allen
+      den Philosophien? Ich weiss nicht,
+
+    Aber die Philosophie,
+      hoff’ ich, soll immer bestehn.
+
+
+
+
+                        PHILOSOPHICAL PROBLEMS.
+
+
+For Sale.
+
+    Since Metaphysics of late
+      without heirs to her fathers is gathered,
+
+    Here at the auctioneer’s are
+      “things in themselves” to be sold.
+
+
+Auction.
+
+    Da die Metaphysik
+      vor kurzem unbeerbt abging,
+
+    Werden die “Dinge an sich”
+      morgen _sub hasta_ verkauft.
+
+
+A Flaw.
+
+    Let but an error be hid
+      in the stone of foundation. The builder
+
+    Buildeth with confidence on.
+      Never the error is found.[16]
+
+
+Die Möglichkeit.
+
+    Liegt der Irrthum nur erst,
+      wie ein Grundstein, unten im Boden,
+
+    Immer baut man darauf,
+      nimmermehr kömmt er an Tag.
+
+
+Empiricists.
+
+    On the securest of paths
+      you have started, and no one denies it.
+
+    But on the straightest of roads
+      blindly you grope in the dark.
+
+
+Empiriker.
+
+    Dass ihr den sichersten Pfad gewählt,
+      wer möchte das läugnen?
+
+    Aber ihr tappet nur blind
+      auf dem gebahntesten Pfad.
+
+
+Theoreticians.
+
+    You are obedient to rules;
+      your conclusions would doubtless be valid,
+
+    Were but your premises true,
+      major, and minor as well.
+
+
+Theoretiker.
+
+    Ihr verfahrt nach Gesetzen,
+      auch würdet ihr’s sicherlich treffen,
+
+    Wäre der Obersatz nur,
+      wäre der Untersatz wahr!
+
+
+Last Refuge.
+
+    Oh! how disdainful you speak
+      and how proud, of the specialist’s blindness!
+
+    But in emergencies, he
+      comes to the rescue alone.
+
+
+Letzte Zuflucht.
+
+    Vornehm schaut ihr im Glück
+      auf den blinden Empiriker nieder,
+
+    Aber, seid ihr in Noth,
+      ist er der delphische Gott.
+
+
+Natural Science and Transcendental[17] Philosophy.
+
+    Enemies shall ye remain!
+      As yet premature is your alliance.
+
+    Though you may separate now,
+      truth will be found by your search.
+
+
+Naturforscher und Transcendental-Philosophen.
+
+    Feindschaft sei zwischen euch,
+      noch kommt das Bündniss zu frühe,
+
+    Wenn ihr im Suchen euch trennt,
+      wird erst die Wahrheit erkannt.
+
+
+The Same.
+
+    Both have to travel their ways,
+      and the one should not know of the other.
+
+    Each one must wander on straight,
+      yet in the end they will meet.
+
+
+An die voreiligen Verbindungsstifter.
+
+    Jeder wandle für sich,
+      und wisse nichts von dem Andern,
+
+    Wandeln nur Beide gerad’,
+      finden sich Beide gewiss.
+
+
+Kant and His Interpreters.
+
+    One man of wealth gives a living
+      to armies of indigent people;
+
+    Kings that are building provide
+      teamsters with plenty of work.
+
+
+Kant und seine Ausleger.
+
+    Wie doch ein einziger Reicher
+      so viele Bettler in Nahrung
+
+    Setzt! Wenn die Könige bau’n,
+      haben die Kärrner zu thun.
+
+
+Teleology.
+
+    Worship, O man, the Creator,
+      who, when he created the cork-tree,
+
+    Kindly suggested the art
+      how we might bottle our wine.
+
+
+Der Teleolog.
+
+    Welche Verehrung verdient
+      der Weltenschöpfer, der gnädig,
+
+    Als er den Korkbaum schuf,
+      gleich auch die Stöpsel erfand.
+
+
+The Problem of Natural Law.[18]
+
+    Years upon years I’ve been using
+      my nose for the purpose of smelling.
+
+    Now I must question myself:
+      Have I a right to its use?
+
+
+Rechtsfrage.
+
+    Jahre lang schon bedien’ ich
+      mich meiner Nase zum Riechen,
+
+    Hab’ ich denn wirklich an sie
+      auch ein erweisliches Recht?
+
+
+Puffendorf’s Reply.
+
+    Well! ’Tis a critical case!
+      But possession is strong in your favor.[19]
+
+    Since you’re possessed of a nose,
+      use it in future, I say.
+
+
+Puffendorf.
+
+    Ein bedenklicher Fall!
+      Doch die Erste Possession scheint
+
+    Für dich zu sprechen, und so
+      brauche sie immerhin fort.
+
+
+A Moral Problem.
+
+    Willingly serve I my friends;
+      but, ’tis pity, I do it with pleasure.
+
+    And I am really vexed
+      that there’s no virtue in me![20]
+
+
+Gewissensscrupel.
+
+    Gerne dien’ ich den Freunden,
+      doch thu’ ich es leider mit Neigung,
+
+    Und so wurmt es mir oft,
+      dass ich nicht tugendhaft bin.
+
+
+The Kantian’s Decision.
+
+    Better advice I can’t give you
+      than that thou must try to despise friends.
+
+    Then what your duty demands,
+      you will perform with disgust.[20]
+
+
+Decisum.
+
+    Da ist kein anderer Rath,
+      du musst suchen, sie zu verachten,
+
+    Und mit Abscheu alsdann
+      thun, wie die Pflicht dir gebeut.
+
+
+Human Knowledge.[21]
+
+    When thou decipher’st in nature
+      the writing which thou hast inscribed there,
+    When its phenomena thou
+      castest in groups for thine eye,
+
+    When thou hast covered its infinite fields
+      with thy measuring tape-lines,
+    Dost thou imagine, thy mind
+      really graspeth the All?
+
+    Thus the astronomer paints
+      on the heavens his star-constellations
+    Merely his bearings to find
+      easily in their domain.
+
+    Suns that at measureless distances roam,
+      oh how closely together
+    Have they been joined in the swan
+      and in the horns of the bull!
+
+    But can the heavens be thus understood
+      in their mystical cycles,
+    When their projections appear
+      on planispherical charts?
+
+
+Menschliches Wissen.
+
+    Weil du liesest in ihr,
+      was du selber in sie geschrieben,
+    Weil du in Gruppen für’s Aug’
+      ihre Erscheinungen reihst,
+
+    Deine Schnüre gezogen
+      auf ihrem unendlichen Felde,
+    Wähnst du, es fasse dein Geist
+      ahnend die grosse Natur.
+
+    So beschreibt mit Figuren
+      der Astronome den Himmel,
+    Dass in dem ewigen Raum
+      leichter sich finde der Blick,
+
+    Knüpft entlegene Sonnen,
+      durch Siriusfernen geschieden,
+    Aneinander im Schwan
+      und in den Hörnern des Stiers.
+
+    Aber versteht er darum
+      der Sphären mystische Tänze,
+    Weil ihm das Sternengewölb
+      sein Planiglobium zeigt?
+
+
+Systems.
+
+    Splendidly did you construct
+      your sublime philosophical systems!
+
+    Heavens! how shall we eject
+      errors that live in such style.
+
+
+Die Systeme.
+
+    Prächtig habt ihr gebaut.
+      Du lieber Himmel! Wie treibt man,
+
+    Nun er so königlich erst
+      wohnet, den Irrthum heraus!
+
+
+
+
+                           SCIENCE AND ART.
+
+
+Genius a Gift.
+
+    Born is the poet ’tis said;
+      and we add, the philosopher also.
+
+    For it is certain that truth
+      has to be formed to be seen.
+
+
+Wissenschaftliches Genie.
+
+    Wird der Poet nur geboren?
+      Der Philosoph wird’s nicht minder.
+
+    Alle Wahrheit zuletzt
+      wird nur gebildet, geschaut.
+
+
+Truth and Form.
+
+    Truth will be mighty although
+      an inferior hand should defend it,
+
+    But in the empire of art
+      form and its contents are one.
+
+
+Mittheilung.
+
+    Aus der schlechtesten Hand
+      kann Wahrheit mächtig noch wirken,
+
+    Bei der Schönheit allein
+      macht das Gefäss den Gehalt.
+
+
+Creation.
+
+    Good from the good, I declare
+      that each sensible man can evolve it;
+    But a true genius, indeed,
+      good from the bad can produce.
+
+    Mere imitations are forms reproduced,
+      but a genius createth;
+    What is to others well formed,
+      is but material to him.
+
+
+Der Nachahmer.
+
+    Gutes aus Gutem, das kann
+      jedweder Verständige bilden;
+    Aber der Genius ruft
+      Gutes aus Schlechtem hervor.
+
+    An Gebildetem nur
+      darfst du, Nachahmer, dich üben;
+    Selbst Gebildetes ist
+      Stoff nur dem bildenden Geist.
+
+
+Different Applications.
+
+    Science to one is the Goddess,
+      majestic and lofty,--to others
+
+    She is the cow that supplies
+      butter to put on his bread.
+
+
+Wissenschaft.
+
+    Einem ist sie die hohe,
+      die himmlische Göttin, dem Andern
+
+    Eine tüchtige Kuh,
+      die ihn mit Butter versorgt.
+
+
+The Sublime.
+
+    Boldly astronomers claim
+      that their science is truly sublimest;
+
+    Aye; but sublimity, sirs,
+      nowhere existeth in space.
+
+
+An die Astronomen.
+
+    Euer Gegenstand ist
+      der erhabenste freilich im Raume;
+
+    Aber, Freunde, im Raum
+      wohnt das Erhabene nicht.
+
+
+Fiction and Truth.
+
+    “What is the purpose of poetry’s art?”
+      By and by I shall tell you.
+
+    First of reality, friend,
+      tell me the purpose and use.
+
+
+Poet, Erdichtung und Wahrheit.
+
+    Wozu nützt denn die ganze Erdichtung?[22]
+      Ich will es dir sagen,
+
+    Leser, sagst du mir erst,
+      wozu die Wirklichkeit nützt.
+
+
+The Poet and the Naturalist.
+
+    Both of us search for the truth;
+      thou in nature, I here in the inner
+    Heart of myself. And the truth
+      each one thus findeth at last.
+
+    Is but clearsighted thine eye,
+      it will meet in the world the Creator.
+    And is but healthy my heart,
+      clearly ’twill mirror the world.
+
+
+Die Uebereinstimmung.
+
+    Wahrheit suchen wir beide;
+      du aussen im Leben, ich innen
+    In dem Herzen, und so
+      findet sie jeder gewiss.
+
+    Ist das Auge gesund,
+      so begegnet es aussen dem Schöpfer,
+    Ist es das Herz, dann gewiss
+      spiegelt es innen die Welt.
+
+
+Trust in Scientific Truth.
+
+    Sail, O thou sailor courageous!
+      Ne’er mind that the wit will deride thee,
+    And that thy boatswain will drop
+      wearied of work at the helm.
+
+    Sail, O sail on for the West:
+      There the land must emerge from the ocean,
+    As thy prophetical mind
+      clearly perceiveth e’en now.
+
+    Trust to the God who thee leadeth,
+      and cross the mysterious ocean.
+    Did not the land there exist,
+      now it would rise from the deep.
+
+    Truly with Genius Nature
+      has made an eternal alliance,
+    What is by Genius foretold,
+      Nature unfailing fulfils.
+
+
+Kolumbus.
+
+    Steure, muthiger Segler!
+      Es mag der Witz dich verhöhnen
+    Und der Schiffer am Steu’r
+      senken die lässige Hand.
+
+    Immer, immer nach West!
+      Dort muss die Küste sich zeigen,
+    Liegt sie doch deutlich und liegt
+      schimmernd vor deinem Verstand.
+
+    Traue dem leitenden Gott
+      und folge dem schweigenden Weltmeer!
+    Wär’ sie noch nicht, sie stieg’
+      jetzt aus den Fluthen empor.
+
+    Mit dem Genius steht
+      die Natur in ewigem Bunde;
+    Was der eine verspricht,
+      leistet die andre gewiss.
+
+
+Wisdom and Prudence.
+
+    Would you attain, my dear friend,
+      to the loftiest summit of wisdom,
+    Dare it and be not afraid,
+      should you by prudence be scoffed.
+
+    Prudence shortsightedly sees
+      of the shores but the one that recedeth.
+    But she can never discern
+      that one for which you set sail.
+
+
+Weisheit und Klugheit.
+
+    Willst du, Freund, die erhabensten Höh’n
+      der Weisheit erfliegen,
+    Wag’ es auf die Gefahr,
+      dass dich die Klugheit verlacht.
+
+    Die kurzsichtige sieht
+      nur das Ufer, das dir zurückflieht,
+    Jenes nicht, wo dereinst
+      landet dein muthiger Flug.
+
+
+
+
+                    WISDOM, MORALITY AND RELIGION.
+
+
+The Highest.
+
+    Do you desire the highest, the greatest?
+      A plant can instruct you.
+
+    What it unconsciously is,
+      will it! ’Tis all you can do.
+
+
+Das Höchste.
+
+    Suchst du das Höchste, das Grösste?
+      Die Pflanze kann es dich lehren;
+
+    Was sie willenlos ist,
+      sei du es wollend -- das ist’s!
+
+
+Piety and Natural Science.
+
+    Had ye the power, O ye dreamers,
+      to grasp your ideals completely,
+    Certainly you would revere
+      Nature, for that is her due.
+
+    Had ye, philistines, the power,
+      to conceive the great whole of all nature,
+    Surely your path could but lead
+      up to ideal domains.
+
+
+Natur und Vernunft.
+
+    Wär’t ihr, Schwärmer, im Stande,
+      die Ideale zu fassen,
+    O so verehrtet ihr auch,
+      wie sich’s gebührt, die Natur.
+
+    Wär’t ihr, Philister, im Stand,
+      die Natur im Grossen zu sehen,
+    Sicher führte sie selbst
+      euch zu Ideen empor.
+
+
+Misrepresented.
+
+    Moralists pillory Nature,
+      and yet she is holy and healthy!
+
+    Reason’s divinity is
+      vilely by bigots debased.
+
+
+Fratzen.
+
+    Fromme gesunde Natur!
+      Wie stellt die Moral dich an Pranger!
+
+    Heil’ge Vernunft! Wie tief
+      stürzt dich der Schwärmer herab!
+
+
+Philosopher and Bigot.
+
+    While the philosopher standeth on earth,
+      eyes heavenward raising,
+
+    Bigots lie, eyes in the mud,
+      stretching their legs to the skies.
+
+
+Der Philosoph und der Schwärmer.
+
+    Jener steht auf der Erde,
+      doch schauet das Auge zum Himmel,
+
+    Dieser, die Augen im Koth,
+      recket die Beine hinauf.
+
+
+Theological Hedonists.
+
+    Folks that seek pleasure in all
+      will with gluttony relish ideas;
+
+    Knives they will carry, and forks
+      up to celestial repasts.
+
+
+Theophagen.
+
+    Diesen ist alles Genuss.
+      Sie essen Ideen und bringen
+
+    In das Himmelreich selbst
+      Messer und Gabel hinauf.
+
+
+Friend and Enemy.
+
+    Dear is the friend whom I love;
+      but the enemy useful. The former
+
+    Helps me my utmost to dare,
+      enemies teach me the ought.
+
+
+Freund und Feind.
+
+    Theuer ist mir der Freund,
+      doch auch den Feind kann ich nützen.
+
+    Zeigt mir der Freund, was ich kann,
+      lehrt mich der Feind, was ich soll.
+
+
+Distinction.
+
+    There’s a nobility, too,
+      in the empire of morals. For common
+
+    Natures will pay with their deeds,
+      noble ones with what they are.
+
+
+Unterschied der Stände.
+
+    Adel ist auch in der sittlichen Welt.
+      Gemeine Naturen
+
+    Zahlen mit dem was sie thun,
+      edle mit dem, was sie sind.
+
+
+Perfection.
+
+    No one should be like the other,
+      but each one should be like the Highest!
+
+    “Tell me how that to attain!”
+      Perfect must ev’ry one be.
+
+
+Aufgabe.
+
+    Keiner sei gleich dem Andern,
+      doch gleich sei Jeder dem Höchsten!
+
+    Wie das zu machen? Es sei
+      Jeder vollendet in sich.
+
+
+Goodness and Greatness.
+
+    Only two virtues exist.
+      How I wish they were always united!
+
+    Goodness should always be great;
+      greatness should always be good.
+
+
+Güte and Grösse.
+
+    Nur zwei Tugenden gibt’s.
+      O, wären sie immer vereinigt,
+
+    Immer die Güte auch gross,
+      immer die Grösse auch gut!
+
+
+The One Thing Needed.
+
+    Whether the smartest thou art
+      does not matter, but this is important,
+
+    That thou be honest throughout,
+      both at the council and home.
+
+
+Die Hauptsache.
+
+    Ob du der Klügste seist,
+      daran ist wenig gelegen;
+
+    Aber der Biederste sei,
+      so wie bei Rathe, zu Haus.
+
+
+Our Duty.
+
+    Always aspire to the whole,
+      and can you alone independent
+
+    Not be a whole by yourself,
+      serve then as part of the whole.
+
+
+Pflicht für Jeden.
+
+    Immer strebe zum Ganzen;
+      und kannst du selber kein Ganzes
+
+    Werden, als dienendes Glied
+      schliess’ an ein Ganzes dich an.
+
+
+Difference in Oneness.
+
+    Truth is the same to us all;
+      yet to each her appearance will vary.
+
+    When she remaineth the same,
+      diff’rent conceptions are true.
+
+
+Wahrheit.
+
+    Eine nur ist sie für Alle,
+      so siehet sie Jeder verschieden,
+
+    Dass es Eines doch bleibt,
+      macht das Verschiedene wahr.
+
+
+Repetition.
+
+    Let me repeat it a hundred,
+      a thousand times: “Error is error.”
+
+    Whether proclaimed by the great,
+      or by the smallest of men.
+
+
+Wiederholung.
+
+    Hundertmal werd’ ich’s euch sagen
+      und tausendmal: Irrthum ist Irrthum!
+
+    Ob ihn der grösste Mann,
+      ob ihn der kleinste beging.
+
+
+Utility.
+
+    Truth that will injure is dearer to me
+      than available error,
+
+    Truth hath a balm for the wounds
+      which she may sometimes inflict.
+
+
+Was nutzt.
+
+    Schädliche Wahrheit, wie zieh’ ich sie vor
+      dem nützlichen Irrthum!
+
+    Wahrheit heilet den Schmerz,
+      den sie vielleicht uns erregt.
+
+
+Harm.
+
+    Whether an error will harm us?
+      Not always! but certainly erring
+
+    Always will harm us. How much,
+      friends, you will see in the end.
+
+
+Was schadet.
+
+    Ist ein Irrthum wohl schädlich?
+      Nicht immer, aber das Irren,
+
+    Immer ist’s schädlich, wie sehr,
+      sieht man am Ende des Wegs.
+
+
+Discipline.
+
+    Never the truth does us harm.
+      As a mother she sometimes will punish.
+
+    Rearing with firmness her child,
+      checking the flattering maid.
+
+
+Zucht.
+
+    Wahrheit ist niemals schädlich,
+      sie straft -- und die Strafe der Mutter
+
+    Bildet das schwankende Kind,
+      wehret der schmeichelnden Magd.
+
+
+Comfort.
+
+    Error accompanies us;
+      yet a yearning inviolate in us
+
+    Constantly leadeth our mind
+      nearer and nearer to truth.
+
+
+Trost.
+
+    Nie verlässt uns der Irrthum,
+      doch zieht ein höher Bedürfniss
+
+    Immer den strebenden Geist
+      leise zur Wahrheit hinan.
+
+
+Analytical Truth-Seekers.
+
+    Do you take truth for an onion
+      whose layers you singly can peel off?
+
+    Never on truth can you draw
+      save you deposit it first.[23]
+
+
+Analytiker.
+
+    Ist denn die Wahrheit ein Zwiebel,
+      von dem man die Häute nur abschält?
+
+    Was ihr hinein nicht gelegt,
+      ziehet ihr nimmer heraus.
+
+
+Depreciated Coin.
+
+    Princes are coining mean coppers
+      that poorly are plated with silver,
+    Stamping their portraits thereon.
+      Long the deceit remains hid.
+
+    Thus the enthusiast stampeth,
+      as genuine, nonsense and errors.
+    Many accept them as good,
+      lacking the touchstone of truth.
+
+
+Schlechte Münze.
+
+    Fürsten prägen so oft
+      auf kaum versilbertes Kupfer
+    Ihr bedeutendes Bild;
+      lange betrügt sich das Volk.
+
+    Schwärmer prägen den Stempel
+      des Geists auf Lügen und Unsinn.
+    Wem der Probierstein fehlt,
+      hält sie für redliches Gold.
+
+
+Ritual.
+
+    “How these assiduous clerics
+      are ringing their bells to the people
+    Only to cause them to come
+      vain repetitions to make!”
+
+    Do not find fault with the clergy;
+      they know the demands of the people:
+    Vain repetitions, observe!
+      always will gladden man’s heart.
+
+
+Ceremoniendienst.
+
+    Wie sie klingeln, die Pfaffen!
+      Wie angelegen sie’s machen,
+    Dass man komme, nur ja
+      plappre, wie gestern so heut!
+
+    Scheltet mir nicht die Pfaffen!
+      sie kennen des Menschen Bedürfniss:
+    Denn wie ist er beglückt,
+      plappert er morgen wie heut!
+
+
+Mystics.
+
+    That is the very mysterious secret
+      that round us lies open,
+
+    Compassing always our minds,
+      but from our sight ’tis concealed.
+
+
+An die Mystiker.
+
+    Das ist eben das wahre Geheimniss,
+      das Allen vor Augen
+
+    Liegt, euch ewig umgiebt,
+      aber von Keinem gesehn.
+
+
+Light and Color.
+
+    Live, thou Eternally-One,
+      in the realm of immutable oneness,
+
+    Color, in changes so rich,
+      kindly descend upon earth.
+
+
+Licht und Farbe.
+
+    Wohne, du ewiglich Eines,
+      dort bei dem ewiglich Einen!
+
+    Farbe, du wechselnde, komm
+      freundlich zum Menschen herab!
+
+
+Not Irreligious.
+
+    What my religion? I’ll tell you!
+      There’s none among all you may mention
+
+    Which I embrace.--And the cause?
+      Truly, religion it is!
+
+
+Mein Glaube.
+
+    Welche Religion ich bekenne?
+      Keine von allen,
+
+    Die du mir nennst! “Und warum
+      keine?” Aus Religion.
+
+
+Our Father.
+
+    Though you may work and aspire,
+      you will never escape isolation,
+
+    Till with her might to the All
+      Nature has knitted your soul.
+
+
+Der Vater.
+
+    Wirke, so viel du willst,
+      du stehest ewig allein da,
+
+    Bis an das All die Natur
+      dich, die gewaltige, knüpft.
+
+
+
+
+                                NOTES.
+
+
+Notes.
+
+[1] Page 30, Note 1.--The name “Huss” means “goose.” When Huss was
+condemned to die at the stake he said:
+
+_“Nach mir wird kommen ein Schwan, Den sollen sie ungebraten lah’n.”_
+
+[After me a swan will rise, Whom they will not roast likewise.]
+
+
+This doggerel with its grim humor on so tragic an occasion is commonly
+and naturally regarded as foretelling the coming of Martin Luther.
+
+[2] Page 55, Note 2.--Professor Wolf was the first to prove that the
+Iliad and the Odyssey consisted of a number of epic poems by different
+poets, which were collected under the name of Homer. For Goethe’s
+feeling with regard to criticism see the translator’s book _Goethe_,
+page 273.
+
+[3] Page 60, Note 3.--This distich is addressed to Karl Philip Moritz,
+author of an interesting novel in the form of an autobiography, _Anton
+Reiser_.
+
+[4] Page 61, Note 4.--This is addressed to F. H. Jacobi, who had
+written two philosophical novels, _Woldemar_ and _Allwill_. The
+difference between him and Moritz is sufficiently characterized in this
+and the preceding distich.
+
+[5] Page 63, Note 5.--This satirizes the sensuous novels of Timotheus
+Hermes.
+
+[6] Page 64, Note 6.--Directed against Platner, whose philosophy was
+a declamation of platitudes. The distich is true of almost all the
+debates that take place in literary clubs after the reading of a paper.
+
+[7] Page 71, Note 7.--Goethe wrote this in criticism of Reichardt’s
+praise of the French Revolution.
+
+[8] Page 77, Note 8.--This and the following three distichs
+are directed against Nicolai, who was the owner of a large
+publishing-house, but at the same time a mediocre author, shallow and
+conceited.
+
+[9] Page 85, Note 9.--The Stolberg brothers had been liberal, but
+suddenly turned Roman Catholic.
+
+[10] Page 86, Note 10.--The pious Count Leopold Stolberg, exaggerating
+the value of Christian art while deprecating classic taste, said that
+he would give a whole collection of Greek urns for one Faience vase
+painted in the manner of Raphael.
+
+[11] Page 87, Note 11.--The censure is true in its general application;
+but the Xenion is aimed at a man (Johann Heinrich Jung, whose _nom de
+plume_ was Heinrich Stilling) who did not deserve this castigation. See
+_Goethe_, page 16.
+
+[12] Page 88, Note 12.--A severe description of Johann Caspar Lavater.
+See _Goethe_, page 28.
+
+[13] Page 89, Note 13.--Also directed against Reichardt. (See Note 7.)
+
+[14] Pages 94 and 102, Note 14.--Schiller renders “Hades” by “Hell”
+which here retains the classical meaning and does not imply the idea of
+punishment.
+
+[15] Page 104, Note 15.--Karl Leonard Reinhold (born in Vienna October
+26, 1758) was educated as a Jesuit and became professor of philosophy
+in the Jesuit college of the Barnabites, but renounced the faith of
+his youth in 1783 and left Vienna for Weimar, where he married the
+daughter of the poet Wieland. He became professor of philosophy at the
+University of Jena in 1787 and 1794 in Kiel, where he died April 10,
+1823. He was a Kantian and wrote much on Kantian philosophy.
+
+[16] Page 112, Note 16.--Very good as a general criticism. Goethe,
+however, was on the wrong track, in directing this distich against
+Newton’s theory of color.
+
+[17] Page 116, Note 17.--Kant called his philosophy transcendental
+idealism, and his followers insisted upon the importance of
+transcendentalism. They were opposed by naturalists, who scorned theory
+and insisted on the facts of experience.
+
+For the meaning of the word “transcendental” see the translator’s
+_Fundamental Problems_, p. 30 _et passim_, and _Primer of Philosophy_,
+p. 66. “Transcendent” means what transcends human knowledge, i. e.,
+what is unknowable, but “transcendental” is in Kantian terminology
+non-sensory or formal knowledge such as pure logic and arithmetic,
+involving the principles of theory or systematic abstract thought.
+
+[18] Page 120, Note 18.--Here the term “natural law” does not mean laws
+of nature but the juridical principle based upon primitive natural
+conditions.
+
+[19] Page 121, Note 19.--Samuel von Puffendorf (1632-1694) was a famous
+jurist and professor of natural law in Berlin. (See previous note.)
+
+[20] Pages 122 and 123, Note 20.--Kant declared that the man who
+performed his duty because it gave him pleasure was less moral than he
+who did it against his own inclinations.
+
+[21] Page 124, Note 21.--Schiller was a disciple and follower of Kant,
+who finds the conditions of knowledge in the thinking subject, not in
+the object that is thought. Since a thinking being does not acquire an
+insight into the laws of form by experience, but establishes them _a
+priori_, Kant believes that things have to conform to cognition and
+not cognition to things. Man thus produces truth out of his own being,
+and imports it into the objective world. Now it is true that truth and
+the criterion of truth, namely reason, develop together with mind; for
+indeed reason is the characteristic feature of mind. Things are real,
+not true, and truth can dwell in mental representations only. But
+considering the fact that mind develops from and by experience which
+originates by a contact with objects, and that reason is but the formal
+element extracted from experience and systematized--a consideration
+which Kant did not make because he never proposed the problem of the
+origin of mind--we shall find that the nature of reason and truth
+are not purely subjective. Reason is not an arbitrary classification
+of things (as the nominalists believe), but a formula that describes
+the necessary and universal relations of the objective world.--For
+a critical exposition of the problem see the translator’s books on
+Kant: _The Surd of Metaphysics_ and _Kant’s Prolegomena_ in which
+the question “Are there things in themselves?” is answered in the
+negative, but the existence of forms in themselves is insisted upon.
+See also the chapters on the “_A Priori_ and the Formal” in his _Primer
+of Philosophy_; “The Origin of the _A Priori_” in his _Fundamental
+Problems_; and “The Origin of Mind” in _The Soul of Man_.
+
+[22] Page 134, Note 22.--The caesura has here been placed contrary to
+the classical rule.
+
+[23] Page 158, Note 23.--Truth cannot directly be taken from reality
+but is the product of work, for facts must be observed, stated, and
+systematized so as to become truth.
+
+
+
+
+                                INDEX.
+
+
+Index.
+
+
+  Action and motives, 44.
+
+  Admiration Society, Mutual, 58.
+
+  Analytical truth-seekers, 158.
+
+  Answer, My, 97, 105, 107.
+
+  Anti-Xenions, 9.
+
+  Apollo, 85.
+
+  Appearance not sham, 101.
+
+  Aristotle, 94.
+
+  Art, 56, 130; Christian, 168.
+
+  Astronomers, 133.
+
+  Authority, Those in, 71.
+
+  Authors, Two different, 60, 61.
+
+
+  Baal priests, 45.
+
+  Barkers, 71.
+
+  Beauty, Oneness of, 38.
+
+  Beethoven, 3.
+
+  Being and possession, 36.
+
+  _Belles lettres_, Servant and, 62.
+
+  Berkeley, 99.
+
+  Bigot and philosopher, 144.
+
+  Bigots, 143; (_Schwärmer_), 25.
+
+  Blank verse, 19-21.
+
+  Boisterous, 28.
+
+  Born is the poet, 129.
+
+  Bottle wine, How to, 119.
+
+  Bubble in me, A, 99.
+
+  Bucolic caesura, 16-17.
+
+
+  Caesura, 14-15, 171;
+    Bucolic, 16-17.
+
+  Catalectic, 14.
+
+  Celestial repasts, Pleasure in, 145.
+
+  Changes and oneness, 162.
+
+  Christian art, 168.
+
+  Clerics, 160.
+
+  Coin, 73;
+    Depreciated, 159.
+
+  Collector, The, 78.
+
+  Color and light, 162.
+
+  Columbus, 136-137.
+
+  Committee, A, 74.
+
+  Common natures and noble ones, 147.
+
+  Conception makes three, 104.
+
+  Connoisseur, 86.
+
+  Conscience, 107.
+
+  Cork-tree, The, 119.
+
+  Counters, Valueless, 73.
+
+  Cow or goddess, 132.
+
+  Creation, 131.
+
+  Creator and world, 135.
+
+  Critics, 54, 68.
+
+  Crudity, 79.
+
+
+  Dactylic pentameter, 21-22.
+
+  Danube, Nicolai on the, 77.
+
+  Death, 46; and immortality, 48.
+
+  Descartes, 96; Answer to, 97.
+
+  Destinies, Various, 39.
+
+  Devil, Licentiousness and the, 63.
+
+  Dilettante, 59.
+
+  Discipline, 156.
+
+  Discussion and monologues, 64.
+
+  Dissection, 72.
+
+  Distich a fountain, 27;
+    The elegiac, 13ff.
+
+  Distinction, 147.
+
+  Divinity, 42.
+
+  Dreamers, 142.
+
+  Dunce, The whole a, 74.
+
+  Dupe will turn rogue, 84.
+
+  Duty, Our, 151.
+
+
+  Empiricists, 113.
+
+  Enemy useful, 146.
+
+  Enthusiast, 5, 56, 159.
+
+  Erring will harm, 155.
+
+  Error and truth, 157, 159;
+    hid, 112;
+    is error, 153;
+    Truth dearer than, 154.
+
+  Errors, 126.
+
+  Eternity, 40.
+
+  Eyes in the mud, 144.
+
+
+  Facts and their treatment, 61.
+
+  Fate, Our common, 29.
+
+  Father, Our, 164.
+
+  Fathom thyself, 35.
+
+  Fichte, 103.
+
+  Fiction and truth, 134.
+
+  Flaw, A, 112.
+
+  Folly and insanity, 43.
+
+  Foot and meter, 13.
+
+  Form, Truth and, 130.
+
+  Formless material, 78.
+
+  Fountain, The distich a, 27.
+
+  Friend and enemy, 146.
+
+  Frog, 72.
+
+
+  Genius, a gift, 129;
+    and nature, 37, 136;
+    when it slips, 43.
+
+  Gift, Genius a, 129.
+
+  Goddess or cow, 132.
+
+  Goethe and Schiller, 3ff., _et passim_.
+
+  Good from the bad, 131.
+
+  Goodness and greatness, 149.
+
+  Growth, Propagation and, 39.
+
+
+  Hades, Philosophers in, 91-108.
+
+  Half-bird, The, 89.
+
+  Harmony, 34.
+
+  Heart and reason, 34;
+    of hearts, Thine own, 35.
+
+  Hedonists, Theological, 145.
+
+  Hell, 169.
+
+  Hephthemimeres, 16.
+
+  Heracles, Zeus to, 42.
+
+  Hermes, Timotheus, 63, 168.
+
+  Heroic hexameter, 17.
+
+  Highest, The, 141.
+
+  Homer, 55, 167.
+
+  Honest throughout, Be, 150.
+
+  _Horen, Die,_ 6f.
+
+  Human, knowledge, 124-125;
+    life, 47.
+
+  Hume, David, 102.
+
+  Huss, 30, 167.
+
+  Hypocrites (_Heuchler_), 25.
+
+
+  I and not-I, 103.
+
+  Iambic trimeter, 19-21.
+
+  Ice-floe, 49.
+
+  Ideal, Road to, 46.
+
+  Imitations, 131.
+
+  Immortality and death, 48.
+
+  Immutable, The, 40.
+
+  Incompetent reviewers, 54.
+
+  Indestructible, 49.
+
+  Insanity, Folly and, 43.
+
+  Investigation, Questionable, 72.
+
+  Irreligious, Not, 163.
+
+
+  Jacobi, F. H., 61, 167.
+
+
+  Kant, 3, 101, 102, 169, 170, 171;
+    and his interpreters, 118.
+
+  Kantian’s decision, The, 123.
+
+  Key, The, 35.
+
+
+  Language and logic spoiled, 57;
+    qualitative and quantitative, 18;
+    shaping verse, 59.
+
+  Lavater, Johann Caspar, 88, 168.
+
+  Leibniz, 100.
+
+  Letter, Spirit and, 73.
+
+  Licentiousness and the Devil, 63.
+
+  Life limited, 47.
+
+  Light and color, 162.
+
+  Logic and language spoiled, 57.
+
+  Longfellow, 17.
+
+  Luther, 167.
+
+
+  Madness, Join in, 28.
+
+  Majolica pot, 86.
+
+  Martial’s _Xenia_, 7, 8.
+
+  Martyr, The last, 30.
+
+  Martyrs, 84.
+
+  Metaphysics for sale, 111.
+
+  Meter and foot, 13.
+
+  Method, Our, 26.
+
+  Modern criticism, 76.
+
+  Moment, The great, 67.
+
+  Monologues and discussion, 64.
+
+  Moral Problem, A, 122.
+
+  Moralists void of sense, 8.
+
+  Moritz, Karl Philip, 60, 167.
+
+  Motives and action, 44.
+
+  Muse, The poet and his, 53.
+
+  _Musen-Almanach_, 7, 8.
+
+  Mutual Admiration Society, 58.
+
+  Mystics, 161.
+
+
+  Natural law, 120, 170.
+
+  Naturalist and poet, 135.
+
+  Nature, and reason, 37;
+    Genius and, 136;
+    Law of, 41;
+    misrepresented, 143.
+
+  Nectar, 42.
+
+  Newton’s theory of color, 169.
+
+  Nicolai, 5f, 168;
+    Motto of, 80;
+    on the Danube, 77.
+
+  Noble and common natures, 147.
+
+  Nose for smelling, 120.
+
+  Nothing, I thought, 97.
+
+
+  Olympian gods, 85.
+
+  One thing needed, 150.
+
+  Oneness and changes, 162;
+    Difference in, 152;
+    Indicated, 100;
+    of beauty, 38.
+
+  Onion, Truth not an, 158.
+
+  Open secret, 161.
+
+  Ostrich, The, 89.
+
+
+  Parnassus, 85.
+
+  Part of the whole, 151.
+
+  Parties, 90.
+
+  Pentameter, Dactylic, 21-22.
+
+  Penthemimeres, 15, 21.
+
+  Perfection, 148.
+
+  Philistines, 5, 25, 142.
+
+  Philosopher and bigot, 144.
+
+  Philosophy will remain, 108.
+
+  Piety and science, 142.
+
+  Plant unconscious, 141.
+
+  Platitudes, 76.
+
+  Platner, 168.
+
+  Pleasure and virtue, 122;
+    in celestial repasts, 145.
+
+  Poet and his muse, The, 53;
+    and naturalist, 135;
+    is born, The, 129.
+
+  Poetical deviltry, 8.
+
+  Poetry, Purpose of, 134.
+
+  Possession and being, 36.
+
+  Practical, 106.
+
+  Press is thinking, 81.
+
+  Problem, A moral, 122.
+
+  Propagation and growth, 39.
+
+  Prophet, The, 88.
+
+  Prose, 26.
+
+  Prudence and wisdom, 138.
+
+  Publisher, A, 81.
+
+  Puffendorf, 120-121; 170.
+
+  Purpose, of poetry, 134;
+    Our, 25.
+
+  Pythia, 82.
+
+
+  Reason, and heart, 34;
+    and nature, 37;
+    and truth, 171.
+
+  Reason’s divinity, 143.
+
+  Refuge, Specialist the last, 115.
+
+  Reichardt, 168.
+
+  Reinhold, Karl Leonard, 164, 169.
+
+  Religion, 163.
+
+  Repetition, 153.
+
+  Repetitions, Vain, 160.
+
+  Reviewers, Incompetent, 54.
+
+  Ritual, 160.
+
+
+  Sale, Metaphysics for, 111.
+
+  Salvation, 46.
+
+  Schiller, 170;
+    and Goethe, 3ff, _et passim_.
+
+  Schmidt, K. Ch. F., 106.
+
+  Science, 132;
+    and piety, 142;
+    and transcendental philosophy, 116, 117.
+
+  Scoundrel, Stuff for a, 88.
+
+  Secret, open, 161; remains, 50.
+
+  Sentiment and thoughts, 33.
+
+  Sentimentalists, 5, 87.
+
+  Servant and _belles lettres_, 62.
+
+  Socrates, 82.
+
+  Soul, Thing and, 101.
+
+  Souls, Let us interchange, 36.
+
+  Specialist the last refuge, 115.
+
+  Spinoza, 98.
+
+  Spirit and letter, 73.
+
+  Star-constellations, 124.
+
+  Stilling, Heinrich, 87, 168.
+
+  Stolberg, The Brothers, 7, 85, 168.
+
+  Strength and weakness, 41.
+
+  Sublimity not in space, 133.
+
+  Sully, Your hands, 79.
+
+  Systems, Philosophical, 126.
+
+
+  Taste in a watering place, 75.
+
+  Teleology, 119.
+
+  Teutonic languages, 18.
+
+  Theoreticians, 114.
+
+  Thing, and soul, 101;
+    of all things, 98.
+
+  “Things in themselves” to be sold, 111.
+
+  Thoughts and sentiment, 33.
+
+  Three, Conception makes, 104.
+
+  Time, 40.
+
+  Transcendent and transcendental, 169.
+
+  Transcendental, idealism, 169;
+    philosophy, Natural science and, 116, 117.
+
+  Trochaic trimeter, 14.
+
+  True universally, 95.
+
+  Trust in scientific truth, 136.
+
+  Truth, and error, 157, 159;
+    and fiction, 134;
+    and form, 130;
+    and her appearance, 152;
+    and reason, 171;
+    dearer than error, 154;
+    My, 80;
+    not an onion, 158;
+    Trust in scientific, 136;
+    will punish, 156.
+
+
+  Universally true, 95.
+
+  Urgent, 95.
+
+
+  Value and worth, 36.
+
+  Vanity, 69.
+
+  Various destinies, 39.
+
+  Verse is impressive, 26;
+    Language shaping, 59.
+
+  Vinculum, 69.
+
+  Virtue and pleasure, 122.
+
+  Voss, Johann Heinrich, 11, 12.
+
+
+  Wanted, 62.
+
+  Weakness and strength, 41.
+
+  Whole, Part of the, 151,
+
+  Wisdom and prudence, 138.
+
+  Wolf, 55, 167.
+
+  Wolff, Caspar Friedrich, 3.
+
+  World, Creator and, 135.
+
+  Worth and value, 36.
+
+  Wretches, 68.
+
+
+  Xenions, and Xenia, 8;
+    History of the, 3ff.
+
+
+  Zeus to Heracles, 42.
+
+
+
+
+
+*** END OF THE PROJECT GUTENBERG EBOOK GOETHE AND SCHILLER'S XENIONS ***
+
+
+    
+
+Updated editions will replace the previous one—the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG™ LICENSE
+
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project Gutenberg
+electronic works
+
+1.A. By reading or using any part of this Project Gutenberg
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg mission of promoting
+free access to electronic works by freely sharing Project Gutenberg
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg License must appear
+prominently whenever any copy of a Project Gutenberg work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg™ License included with this eBook or online
+    at www.gutenberg.org. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  
+1.E.2. If an individual Project Gutenberg electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg electronic works
+provided that:
+
+    • You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    
+    • You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    
+    • You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    
+    • You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg
+
+Project Gutenberg is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg’s
+goals and ensuring that the Project Gutenberg collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+
+The Foundation’s business office is located at 41 Watchung Plaza #516,
+Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit www.gutenberg.org/donate.
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+
+Section 5. General Information About Project Gutenberg electronic works
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our website which has the main PG search
+facility: www.gutenberg.org.
+
+This website includes information about Project Gutenberg,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+
