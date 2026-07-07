@@ -49,7 +49,14 @@ def main():
             ids=[c["id"] for c in batch],
             embeddings=embeddings,
             documents=[c["text"] for c in batch],
-            metadatas=[{"source": c["source"]} for c in batch],
+            metadatas=[
+                {
+                    "source": c["source"],
+                    "source_type": c.get("source_type", "primary"),
+                    "author": c.get("author") or "",
+                }
+                for c in batch
+            ],
         )
         print(f"Embedded {min(i + BATCH_SIZE, len(chunks))}/{len(chunks)}")
 

@@ -1,24 +1,25 @@
 # Goethe AI
 
 A full-stack, retrieval-augmented conversational persona of **Johann Wolfgang von Goethe** —
-grounded in essentially everything by Goethe available on Project Gutenberg: 43 source texts
-covering his major plays, novels, poetry, science writing, memoirs, aphorisms, and private
-letters, in both English translation and (where no English translation exists) the German
-original. Talk to him in the browser; he answers in character — reading German sources as
-fluently as English ones — and a lightweight audio-reactive "talking portrait" animates while he
-speaks.
+grounded in essentially everything relevant to him on Project Gutenberg: 56 source texts,
+~33,000 chunks, split between his own writing (plays, novels, poetry, science writing, memoirs,
+aphorisms, private letters) and what biographers, critics, and essayists have written *about* his
+life and character. English where a translation exists, German original otherwise. Talk to him in
+the browser; he answers in character — reading German sources as fluently as English ones, and
+reacting to biographical accounts of himself as a real person would — and a lightweight
+audio-reactive "talking portrait" animates while he speaks.
 
 <details>
-<summary>Full source list (43 texts, ~24,000 chunks)</summary>
+<summary>Full source list (56 texts, ~33,000 chunks)</summary>
 
-**English translations:**
+**His own works, in English translation:**
 Faust, Part I · The Sorrows of Young Werther · Theory of Colours · The Poems of Goethe ·
 The Autobiography of Goethe (Poetry and Truth) · Maxims and Reflections ·
 Wilhelm Meister's Apprenticeship (Vols. I–II) · Letters from Switzerland and Travels in Italy ·
 Egmont · Hermann and Dorothea · Erotica Romana · Iphigenia in Tauris ·
 Goethe's Literary Essays · Goethe and Schiller's Xenions · The Princess and the Tiger
 
-**German originals (no English translation on Gutenberg):**
+**His own works, German original (no English translation on Gutenberg):**
 Die Wahlverwandtschaften (Elective Affinities) · Torquato Tasso · Götz von Berlichingen ·
 Reineke Fuchs · Wilhelm Meisters Wanderjahre (Vols. I–III) · West-östlicher Divan ·
 Römische Elegien · Venetianische Epigramme · Die natürliche Tochter · Die Mitschuldigen ·
@@ -26,14 +27,29 @@ Prometheus (fragment) · Die Geschwister · Unterhaltungen deutscher Ausgewander
 Italienische Reise (Vols. I–II) · Satyros · Die Laune des Verliebten · Die Aufgeregten ·
 Belagerung von Mainz · Kampagne in Frankreich
 
-**Letters (German, no English translation on Gutenberg):**
+**His own letters (German, no English translation on Gutenberg):**
 Letters to Leipzig friends · Letters to Auguste zu Stolberg · Letters to Lavater (1774–1783) ·
 Letters exchanged with Charlotte Kestner around *Werther* · Schiller & Goethe's letters to
 A. W. Schlegel
 
+**Biographies and essays about him (by other authors):**
+*Life of Johann Wolfgang Goethe* (James Sime) · *The Youth of Goethe* (P. Hume Brown) ·
+*Representative Men* (Emerson, incl. his essay on Goethe) · *Three Philosophical Poets*
+(Santayana, incl. chapter on Goethe) · *Three Essays* (Thomas Mann, incl. "Goethe and Tolstoy") ·
+*Biographical Essays* (De Quincey, incl. essay on Goethe) · *Man or Matter* (Ernst Lehrs, on
+Goethe's scientific worldview) · *The Three Devils* (David Masson, incl. essay on Goethe's
+Mephistopheles) · *The Faust-Legend and Goethe's 'Faust'* (H. B. Cotterill) · *Kant und Goethe*
+(Georg Simmel, German) · *Aus Goethes Frühzeit* (Wilhelm Scherer, German) · *J. W. v. Goethe's
+Biographie* (Heinrich Döring, German) · *Goethes Lebenskunst* (Wilhelm Bode, German)
+
+Each chunk is tagged `primary` (Goethe's own words) or `biography` (someone else's account of
+him) in the vector store's metadata, and the persona prompt treats the two differently — quoting
+his own works directly, but reacting to biographical passages as a real person hearing what
+history says about him ("I am told...").
+
 Deliberately excluded: near-duplicate re-translations of works already covered (e.g. three other
 English Faust Part I translations), anthologies where Goethe is a minor contributor among other
-authors, and books *about* Goethe rather than *by* him.
+authors, and fictionalized "historical romance" novels about him rather than factual biography.
 </details>
 
 Built end-to-end from [`Goethe_AI_Agenda.md`](./Goethe_AI_Agenda.md).
@@ -109,7 +125,7 @@ cp .env.example .env
 # one-time data pipeline (source texts are already in data/raw/)
 python scripts/clean.py
 python scripts/chunk.py
-python scripts/ingest.py     # embeds ~24,000 chunks — roughly $0.10-0.20, takes several minutes
+python scripts/ingest.py     # embeds ~33,000 chunks — roughly $0.15-0.25, takes several minutes
 
 uvicorn app.main:app --reload --port 8000
 ```

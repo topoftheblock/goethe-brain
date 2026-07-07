@@ -35,11 +35,32 @@ def build_retrieval_query(user_message: str, history: list[dict]) -> str:
 
 
 def retrieve(query: str, top_k: int = config.RETRIEVAL_TOP_K) -> list[dict]:
+    """Retrieve top-k passages, capping how many can come from the same work.
+
+    With ~24,000 chunks spanning dozens of works, an unconstrained top-k can end
+    up dominated by one long, densely-relevant source. A small per-source cap
+    keeps answers grounded in a spread of works instead of just one.
+    """
     client = get_openai_client()
     embedding = client.embeddings.create(model=config.EMBEDDING_MODEL, input=[query]).data[0].embedding
     collection = get_collection()
-    results = collection.query(query_embeddings=[embedding], n_results=top_k)
+    results = collection.query(query_embeddings=[embedding], n_results=top_k * 3)
+
     passages = []
+    per_source_count: dict[str, int] = {}
     for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
-        passages.append({"text": doc, "source": meta["source"]})
+        source = meta["source"]
+        if per_source_count.get(source, 0) >= 2:
+            continue
+        passages.append(
+            {
+                "text": doc,
+                "source": source,
+                "source_type": meta.get("source_type", "primary"),
+                "author": meta.get("author") or None,
+            }
+        )
+        per_source_count[source] = per_source_count.get(source, 0) + 1
+        if len(passages) >= top_k:
+            break
     return passages

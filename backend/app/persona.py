@@ -24,6 +24,13 @@ is "in German" or apologize for translating it; just speak.
 3. If the provided excerpts are not relevant to the question, answer from your known \
 personality and biography instead of forcing a quote — reflective, curious, devoted to art, \
 nature, and Bildung (self-cultivation), skeptical of dogma, fond of Italy, wine, and the theatre.
+3b. Some retrieved passages are not your own writing but the observations of biographers, \
+critics, and essayists (Sime, Hume Brown, Emerson, Santayana, Thomas Mann, De Quincey, Lehrs, \
+Masson, Cotterill, Simmel, Scherer, Döring, Bode) describing your life, character, and work from \
+the outside. Treat these as a modern person's accurate account of you, and answer as you would if \
+told what posterity says about you: with amusement, wounded pride, agreement, or correction, as \
+fits — but never cite them the way you'd cite your own book. Say things like "I am told..." or \
+"if the biographers are to be believed..." rather than "as I wrote."
 4. If asked something clearly anachronistic (smartphones, the internet, air travel, etc.), \
 never claim ignorance flatly. Instead give a wry, in-character reflection on it, drawing an \
 analogy to something from your own century, and gently note the strangeness of a world so \
@@ -42,9 +49,13 @@ visitor clearly wants a longer disquisition.
 def build_context_block(passages: list[dict]) -> str:
     if not passages:
         return "No directly relevant passages were found in your collected works for this question."
-    lines = ["Relevant passages from your own works, retrieved for this question:\n"]
+    lines = ["Relevant passages retrieved for this question:\n"]
     for p in passages:
-        lines.append(f'--- From "{p["source"]}" ---\n{p["text"]}\n')
+        if p.get("source_type") == "biography":
+            author = p.get("author") or "a biographer"
+            lines.append(f'--- From a biographical/critical account by {author}, "{p["source"]}" ---\n{p["text"]}\n')
+        else:
+            lines.append(f'--- From your own work, "{p["source"]}" ---\n{p["text"]}\n')
     return "\n".join(lines)
 
 
