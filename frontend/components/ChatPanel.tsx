@@ -14,18 +14,21 @@ const SUGGESTIONS = [
   "Can you write a Python script for me?",
 ];
 
+const GREETING: DisplayMessage = {
+  role: "assistant",
+  content:
+    "So, a visitor from a later century. Sit down, my good friend. Ask what you will: of poems, of plants and colours, of Italy, of the people I have known. What brings you to me?",
+};
+
 export default function ChatPanel({
   portraitRef,
 }: {
   portraitRef: React.RefObject<TalkingPortraitHandle | null>;
 }) {
-  const [messages, setMessages] = useState<DisplayMessage[]>([
-    {
-      role: "assistant",
-      content:
-        "So, a visitor from a later century. Sit down, my good friend. Ask what you will: of poems, of plants and colours, of Italy, of the people I have known. What brings you to me?",
-    },
-  ]);
+  // The conversation is kept in this browser, so he knows a returning visitor.
+  const [messages, setMessages] = useState<DisplayMessage[]>(
+    () => JSON.parse(localStorage.getItem("conversation") ?? "null") ?? [GREETING],
+  );
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [voiceEnabled, setVoiceEnabled] = useState(true);
@@ -52,7 +55,9 @@ export default function ChatPanel({
 
     try {
       const { reply, sources } = await sendMessage(content, history);
-      setMessages((prev) => [...prev, { role: "assistant", content: reply, sources }]);
+      const remembered: DisplayMessage[] = [...nextMessages, { role: "assistant", content: reply, sources }];
+      setMessages(remembered);
+      localStorage.setItem("conversation", JSON.stringify(remembered));
       scrollToBottom();
 
       if (voiceEnabled) {
@@ -107,6 +112,15 @@ export default function ChatPanel({
             {s}
           </button>
         ))}
+        <button
+          onClick={() => {
+            localStorage.removeItem("conversation");
+            setMessages([GREETING]);
+          }}
+          className="ml-auto hover:text-purpur"
+        >
+          Begin anew
+        </button>
       </div>
 
       <form

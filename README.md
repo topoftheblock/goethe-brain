@@ -74,6 +74,8 @@ frontend (Next.js) --/api/chat--> backend (FastAPI) --> agent loop (gpt-4o-mini 
   consult his papers and writes the search queries (in German, since most of the corpus is),
   optionally restricted to his own writing, his recorded conversations or the biographies. He may
   search up to three rounds, then must answer. Small talk costs no search at all.
+- **Memory**: he sees the last 20 exchanges (`MEMORY_TURNS`); the browser keeps the conversation
+  in `localStorage` until "Begin anew".
 - **Talking portrait** (`frontend/components/TalkingPortrait.tsx`): a static 1828 portrait
   (Joseph Karl Stieler, public domain) with an SVG-style mouth overlay whose vertical scale is
   driven live by the amplitude of the TTS audio via `AnalyserNode`. This is intentionally a
