@@ -2,7 +2,7 @@
 Personen
 
 Personen.
-Prometheus, Epimetheus, Japetiden   Phileros, Prometheus' Sohn   Elpore, Epimeleia, Epimetheus' Töchter   Eos   Pandora, Epimetheus' Gattin   Dämonen   Helios   Schmiede   Hirten   Feldbauende   Krieger   Gewerbsleute   Winzer   Fischer
+Prometheus, Epimetheus, Japetiden Phileros, Prometheus' Sohn Elpore, Epimeleia, Epimetheus' Töchter Eos Pandora, Epimetheus' Gattin Dämonen Helios Schmiede Hirten Feldbauende Krieger Gewerbsleute Winzer Fischer
 
 @@ [Stücktext]
 [Stücktext]

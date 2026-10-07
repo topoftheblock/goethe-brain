@@ -9,13 +9,48 @@
   "primary",
   null
  ],
+ "werke_west_ostlicher_divan_de.txt": [
+  "West-östlicher Divan [German]",
+  "primary",
+  null
+ ],
  "werke_der_ewige_jude_de.txt": [
   "Der ewige Jude [German]",
   "primary",
   null
  ],
+ "werke_reineke_fuchs_de.txt": [
+  "Reineke Fuchs [German]",
+  "primary",
+  null
+ ],
  "werke_hermann_und_dorothea_de.txt": [
   "Hermann und Dorothea [German]",
+  "primary",
+  null
+ ],
+ "werke_die_laune_des_verliebten_de.txt": [
+  "Die Laune des Verliebten [German]",
+  "primary",
+  null
+ ],
+ "werke_die_mitschuldigen_de.txt": [
+  "Die Mitschuldigen [German]",
+  "primary",
+  null
+ ],
+ "werke_gotz_von_berlichingen_mit_der_eisernen_hand_de.txt": [
+  "Götz von Berlichingen mit der eisernen Hand [German]",
+  "primary",
+  null
+ ],
+ "werke_prometheus_de.txt": [
+  "Prometheus [German]",
+  "primary",
+  null
+ ],
+ "werke_satyros_oder_der_vergotterte_waldteufel_de.txt": [
+  "Satyros oder der vergötterte Waldteufel [German]",
   "primary",
   null
  ],
@@ -74,6 +109,11 @@
   "primary",
   null
  ],
+ "werke_torquato_tasso_de.txt": [
+  "Torquato Tasso [German]",
+  "primary",
+  null
+ ],
  "werke_der_groskophta_de.txt": [
   "Der Großkophta [German]",
   "primary",
@@ -84,8 +124,18 @@
   "primary",
   null
  ],
+ "werke_die_aufgeregten_de.txt": [
+  "Die Aufgeregten [German]",
+  "primary",
+  null
+ ],
  "werke_des_epimenides_erwachen_de.txt": [
   "Des Epimenides Erwachen [German]",
+  "primary",
+  null
+ ],
+ "werke_die_naturliche_tochter_de.txt": [
+  "Die natürliche Tochter [German]",
   "primary",
   null
  ],
@@ -104,8 +154,23 @@
   "primary",
   null
  ],
+ "werke_die_wahlverwandtschaften_de.txt": [
+  "Die Wahlverwandtschaften [German]",
+  "primary",
+  null
+ ],
+ "werke_wilhelm_meisters_wanderjahre_de.txt": [
+  "Wilhelm Meisters Wanderjahre [German]",
+  "primary",
+  null
+ ],
  "werke_wilhelm_meisters_lehrjahre_de.txt": [
   "Wilhelm Meisters Lehrjahre [German]",
+  "primary",
+  null
+ ],
+ "werke_unterhaltungen_deutscher_ausgewanderten_de.txt": [
+  "Unterhaltungen deutscher Ausgewanderten [German]",
   "primary",
   null
  ],
@@ -339,8 +404,23 @@
   "primary",
   null
  ],
+ "werke_italienische_reise_de.txt": [
+  "Italienische Reise [German]",
+  "primary",
+  null
+ ],
  "werke_sankt_rochus_fest_zu_bingen_de.txt": [
   "Sankt-Rochus-Fest zu Bingen [German]",
+  "primary",
+  null
+ ],
+ "werke_campagne_in_frankreich_1792_de.txt": [
+  "Campagne in Frankreich 1792 [German]",
+  "primary",
+  null
+ ],
+ "werke_belagerung_von_mainz_de.txt": [
+  "Belagerung von Mainz [German]",
   "primary",
   null
  ],
@@ -1302,6 +1382,21 @@
  "gespraeche_zeitlich_ungewis_de.txt": [
   "Goethes Gespräche, Zeitlich ungewiß [German]",
   "conversation",
+  null
+ ],
+ "farbenlehre_zur_farbenlehre_de.txt": [
+  "Zur Farbenlehre, 1810 [German]",
+  "primary",
+  null
+ ],
+ "naturschriften_naturwissenschaftliche_schriften_1792_1797_de.txt": [
+  "Naturwissenschaftliche Schriften 1792 - 1797 [German]",
+  "primary",
+  null
+ ],
+ "optik_naturwissenschaftliche_schriften_optik_und_farbenlehre_physi_de.txt": [
+  "Naturwissenschaftliche Schriften. Optik und Farbenlehre, Physik [German]",
+  "primary",
   null
  ]
 }

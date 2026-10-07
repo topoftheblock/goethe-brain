@@ -1,8 +1,8 @@
 # Goethe AI
 
 A full-stack, retrieval-augmented conversational persona of **Johann Wolfgang von Goethe** —
-grounded in his works, letters, diaries and recorded conversations: 317 source texts,
-~113,000 chunks, split between his own writing (plays, novels, poetry, science writing, memoirs,
+grounded in his works, letters, diaries and recorded conversations: 310 source texts,
+~110,000 chunks, split between his own writing (plays, novels, poetry, science writing, memoirs,
 aphorisms, private letters) and what biographers, critics, and essayists have written *about* his
 life and character. English where a translation exists, German original otherwise. Talk to him in
 the browser; he answers in character — reading German sources as fluently as English ones, and
@@ -10,7 +10,7 @@ reacting to biographical accounts of himself as a real person would — and a li
 audio-reactive "talking portrait" animates while he speaks.
 
 <details>
-<summary>Full source list (317 texts, ~113,000 chunks)</summary>
+<summary>Full source list (310 texts, ~110,000 chunks)</summary>
 
 **His own works, in English translation:**
 Faust, Part I · The Sorrows of Young Werther · Theory of Colours · The Poems of Goethe ·
@@ -19,18 +19,16 @@ Wilhelm Meister's Apprenticeship (Vols. I–II) · Letters from Switzerland and 
 Egmont · Hermann and Dorothea · Erotica Romana · Iphigenia in Tauris ·
 Goethe's Literary Essays · Goethe and Schiller's Xenions · The Princess and the Tiger
 
-**His own works, German original (no English translation on Gutenberg):**
-Die Wahlverwandtschaften (Elective Affinities) · Torquato Tasso · Götz von Berlichingen ·
-Reineke Fuchs · Wilhelm Meisters Wanderjahre (Vols. I–III) · West-östlicher Divan ·
-Römische Elegien · Venetianische Epigramme · Die natürliche Tochter · Die Mitschuldigen ·
-Prometheus (fragment) · Die Geschwister · Unterhaltungen deutscher Ausgewanderten ·
-Italienische Reise (Vols. I–II) · Satyros · Die Laune des Verliebten · Die Aufgeregten ·
-Belagerung von Mainz · Kampagne in Frankreich
-
-**His own letters (German, no English translation on Gutenberg):**
-Letters to Leipzig friends · Letters to Auguste zu Stolberg · Letters to Lavater (1774–1783) ·
-Letters exchanged with Charlotte Kestner around *Werther* · Schiller & Goethe's letters to
-A. W. Schlegel
+**His own writings, German original (TextGrid Repository, see below):**
+**Werke** — the collected works: *Faust* I and II, the *Urfaust*, the complete poems, the plays,
+novels and tales, *Dichtung und Wahrheit*, *Italienische Reise*, *Tag- und Jahreshefte*, *Maximen
+und Reflexionen*, some 45 essays on art and literature · **Science** — *Zur Farbenlehre*
+(didactic, polemical and historical parts), the morphology and geology essays, and two volumes of
+papers and drafts on osteology, optics and physics · **Briefe** — 13,000 letters 1764–1832, one
+file per year, each headed with year and addressee · **Tagebücher** — the diaries 1775–1832 ·
+**Gespräche** — Biedermann's edition of his recorded conversations (Eckermann, Kanzler von
+Müller, Riemer, Soret and hundreds of visitors), each headed with date and partner · plus *Die
+Geschwister* from Gutenberg
 
 **Biographies and essays about him (by other authors):**
 *Life of Johann Wolfgang Goethe* (James Sime) · *The Youth of Goethe* (P. Hume Brown) ·
@@ -41,16 +39,6 @@ Goethe's scientific worldview) · *The Three Devils* (David Masson, incl. essay 
 Mephistopheles) · *The Faust-Legend and Goethe's 'Faust'* (H. B. Cotterill) · *Kant und Goethe*
 (Georg Simmel, German) · *Aus Goethes Frühzeit* (Wilhelm Scherer, German) · *J. W. v. Goethe's
 Biographie* (Heinrich Döring, German) · *Goethes Lebenskunst* (Wilhelm Bode, German)
-
-**The collected writings, German original (TextGrid Repository, see below):**
-The remaining works not on Gutenberg in German — *Faust* I and II, the *Urfaust*, the complete
-poems (Ausgabe letzter Hand plus Nachlese), *Werther*, *Wilhelm Meisters Lehrjahre*, *Dichtung und
-Wahrheit*, *Tag- und Jahreshefte*, *Maximen und Reflexionen*, *Zur Farbenlehre*, the morphology
-and geology essays, some 45 essays on art and literature, and the smaller plays · **Briefe** —
-his letters 1764–1832, one file per year, each letter headed with year and addressee ·
-**Tagebücher** — the diaries 1775–1832, one file per year · **Gespräche** — Biedermann's
-edition of his recorded conversations 1755–1832 (Eckermann, Kanzler von Müller, Riemer, Soret and
-hundreds of visitors), one file per year, each conversation headed with date and partner
 
 Each chunk is tagged `primary` (Goethe's own words), `conversation` (his talk as written down by
 someone who was in the room) or `biography` (someone else's account of him) in the vector store's
@@ -139,7 +127,7 @@ cp .env.example .env
 # one-time data pipeline (source texts are already in data/raw/)
 python scripts/clean.py
 python scripts/chunk.py
-python scripts/ingest.py     # embeds ~113,000 chunks — roughly $0.50, takes a while
+python scripts/ingest.py     # embeds ~110,000 chunks — roughly $0.50, takes a while
 
 uvicorn app.main:app --reload --port 8000
 ```
@@ -166,14 +154,14 @@ scratch each time, so it's always safe to re-run.
 
 ### The TextGrid corpora
 
-The letters, diaries, conversations and the works Gutenberg lacks come from the
+The German works, letters, diaries and conversations come from the
 [TextGrid Repository](https://textgridrep.org) (public-domain texts, edition CC BY 3.0 DE):
 
 ```bash
 python scripts/fetch_textgrid.py
 ```
 
-It downloads four TEI corpora once into `data/tei_cache/` (the letters stream for 20+ minutes)
+It downloads seven TEI corpora once into `data/tei_cache/` (the letters stream for 20+ minutes)
 and writes plain-text files plus `textgrid_sources.json` (their titles) into `data/raw/`. Lines
 starting with `@@ ` are section headings, which `chunk.py` prefixes to each chunk, e.g.
 `[1823, 10. Juni. Mit Johann Peter Eckermann]`.
