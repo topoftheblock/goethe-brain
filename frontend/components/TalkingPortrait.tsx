@@ -106,8 +106,8 @@ const TalkingPortrait = forwardRef<TalkingPortraitHandle>((_props, ref) => {
   const mouthScaleY = 0.35 + mouthOpen * 1.65;
 
   return (
-    <div className="relative w-full max-w-sm mx-auto select-none">
-      <div className="relative aspect-[960/1184] w-full overflow-hidden rounded-lg shadow-2xl ring-1 ring-amber-900/40">
+    <div className="relative mx-auto w-full max-w-[260px] select-none">
+      <div className="relative aspect-[960/1184] w-full overflow-hidden rounded-[50%] ring-1 ring-ink/40 ring-offset-4 ring-offset-paper outline outline-1 outline-offset-[6px] outline-rule">
         <Image
           src="/images/goethe-portrait.jpg"
           alt="Portrait of Johann Wolfgang von Goethe by Joseph Karl Stieler, 1828"
@@ -156,7 +156,7 @@ const TalkingPortrait = forwardRef<TalkingPortraitHandle>((_props, ref) => {
 
       <audio ref={audioRef} className="hidden" />
 
-      <p className="mt-3 text-center text-xs uppercase tracking-widest text-amber-200/60">
+      <p className="mt-5 text-center text-xs uppercase tracking-widest text-faded">
         {isSpeaking ? "Goethe is speaking…" : "Johann Wolfgang von Goethe, 1828"}
       </p>
     </div>

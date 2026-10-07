@@ -23,7 +23,7 @@ export default function ChatPanel({
     {
       role: "assistant",
       content:
-        "Good day to you, traveler of a stranger century than mine. I am Goethe — ask me of poetry, of nature, of colour, or of the restless heart of Werther. What troubles or delights your mind?",
+        "So, a visitor from a later century. Sit down, my good friend. Ask what you will: of poems, of plants and colours, of Italy, of the people I have known. What brings you to me?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -71,47 +71,38 @@ export default function ChatPanel({
   };
 
   return (
-    <div className="flex h-full flex-col">
-      <div ref={scrollRef} className="flex-1 space-y-4 overflow-y-auto px-1 py-4">
-        {messages.map((m, i) => (
-          <div key={i} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
-            <div
-              className={`max-w-[85%] rounded-2xl px-4 py-3 text-sm leading-relaxed shadow ${
-                m.role === "user"
-                  ? "bg-amber-700/90 text-amber-50"
-                  : "bg-neutral-900/80 text-amber-100 border border-amber-900/40 font-serif"
-              }`}
-            >
+    <div className="flex h-full flex-col text-lg leading-relaxed">
+      <div ref={scrollRef} className="flex-1 space-y-6 overflow-y-auto pb-6">
+        {messages.map((m, i) =>
+          m.role === "user" ? (
+            <p key={i} className="ml-auto max-w-[80%] whitespace-pre-wrap text-right italic text-faded">
+              {m.content}
+            </p>
+          ) : (
+            <div key={i} className="max-w-[90%] border-l-2 border-purpur/60 pl-4">
               <p className="whitespace-pre-wrap">{m.content}</p>
               {m.sources && m.sources.length > 0 && (
-                <p className="mt-2 text-[10px] uppercase tracking-wide text-amber-400/60">
-                  Drawing on: {m.sources.join(", ")}
-                </p>
+                <p className="mt-2 text-xs text-faded">Aus: {m.sources.join(" · ")}</p>
               )}
             </div>
-          </div>
-        ))}
+          ),
+        )}
         {loading && (
-          <div className="flex justify-start">
-            <div className="rounded-2xl border border-amber-900/40 bg-neutral-900/80 px-4 py-3 text-sm text-amber-200/70 font-serif italic">
-              Goethe is composing a reply…
-            </div>
-          </div>
+          <p className="flex items-center gap-3 italic text-faded">
+            <span className="farbenkreis size-4 animate-spin [animation-duration:4s] motion-reduce:animate-none" />
+            Goethe considers…
+          </p>
         )}
-        {error && (
-          <div className="rounded-lg border border-red-800 bg-red-950/60 px-3 py-2 text-xs text-red-300">
-            {error}
-          </div>
-        )}
+        {error && <p className="text-sm text-purpur">{error}</p>}
       </div>
 
-      <div className="flex flex-wrap gap-2 pb-2">
+      <div className="flex flex-wrap gap-x-5 gap-y-1 pb-3 text-sm italic text-faded">
         {SUGGESTIONS.map((s) => (
           <button
             key={s}
             onClick={() => handleSend(s)}
             disabled={loading}
-            className="rounded-full border border-amber-800/50 px-3 py-1 text-xs text-amber-300/80 hover:bg-amber-900/30 disabled:opacity-40"
+            className="underline decoration-rule underline-offset-4 hover:text-purpur disabled:opacity-40"
           >
             {s}
           </button>
@@ -123,26 +114,28 @@ export default function ChatPanel({
           e.preventDefault();
           handleSend();
         }}
-        className="flex items-center gap-2 border-t border-amber-900/30 pt-3"
+        className="flex items-center gap-4 border-t border-rule pt-3"
       >
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Write to Goethe…"
-          className="flex-1 rounded-full border border-amber-800/40 bg-neutral-900/60 px-4 py-2 text-sm text-amber-50 placeholder:text-amber-100/30 focus:outline-none focus:ring-1 focus:ring-amber-600"
+          aria-label="Your message to Goethe"
+          className="flex-1 border-b border-ink/40 bg-transparent py-2 placeholder:italic placeholder:text-faded focus:border-purpur focus:outline-none"
         />
-        <label className="flex items-center gap-1 text-xs text-amber-200/60">
+        <label className="flex items-center gap-1.5 text-sm text-faded">
           <input
             type="checkbox"
             checked={voiceEnabled}
             onChange={(e) => setVoiceEnabled(e.target.checked)}
+            className="accent-purpur"
           />
           voice
         </label>
         <button
           type="submit"
           disabled={loading}
-          className="rounded-full bg-amber-700 px-4 py-2 text-sm font-medium text-amber-50 hover:bg-amber-600 disabled:opacity-40"
+          className="font-display text-xl text-purpur hover:underline disabled:opacity-40"
         >
           Send
         </button>
