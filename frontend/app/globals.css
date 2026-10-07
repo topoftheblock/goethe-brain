@@ -1,35 +1,33 @@
 @import "tailwindcss";
 
-:root {
-  --background: #0a0906;
-  --foreground: #f4e8d0;
-}
-
+/* Paper and ink; purpur is the summit of Goethe's colour wheel. */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-serif: var(--font-serif);
-  --font-display: var(--font-display);
+  --color-paper: #f1e8d5;
+  --color-leaf: #faf6ec;
+  --color-ink: #2a2118;
+  --color-faded: #7b6b56;
+  --color-rule: #cfc1a2;
+  --color-purpur: #8f1f3d;
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-display: var(--font-display), Georgia, serif;
 }
 
 body {
-  background: radial-gradient(ellipse at top, #1a140c 0%, #0a0906 60%);
-  color: var(--foreground);
-  font-family: var(--font-serif), Georgia, serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-serif);
 }
 
-.font-serif {
-  font-family: var(--font-serif), Georgia, serif;
-}
-
-.font-display {
-  font-family: var(--font-display), Georgia, serif;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-thumb {
-  background: #5a3a1a80;
-  border-radius: 4px;
+/* The six-part Farbenkreis of "Zur Farbenlehre" (1810), purpur at the top. */
+.farbenkreis {
+  border-radius: 50%;
+  background: conic-gradient(
+    from -30deg,
+    #8f1f3d 0 60deg,
+    #5a3d86 0 120deg,
+    #2f5a94 0 180deg,
+    #3e7a4c 0 240deg,
+    #e0b530 0 300deg,
+    #d6702a 0 360deg
+  );
 }

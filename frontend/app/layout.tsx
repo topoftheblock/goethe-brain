@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { EB_Garamond, Cormorant_Garamond } from "next/font/google";
+import { EB_Garamond, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
 
 const serif = EB_Garamond({
@@ -7,16 +7,16 @@ const serif = EB_Garamond({
   subsets: ["latin"],
 });
 
-const display = Cormorant_Garamond({
+// A Didone in the manner of Walbaum, who cut his types in Goethe's Weimar.
+const display = Bodoni_Moda({
   variable: "--font-display",
-  weight: ["500", "600", "700"],
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Goethe AI — Speak with the Poet",
+  title: "Goethe — A Conversation in Weimar",
   description:
-    "A RAG-powered conversational persona of Johann Wolfgang von Goethe, grounded in his own works.",
+    "Talk with Johann Wolfgang von Goethe, an AI persona grounded in his works, letters, diaries and recorded conversations.",
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
       lang="en"
       className={`${serif.variable} ${display.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-neutral-950 text-amber-50">{children}</body>
+      <body className="flex min-h-full flex-col">{children}</body>
     </html>
   );
 }
