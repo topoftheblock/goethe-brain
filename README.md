@@ -42,10 +42,21 @@ Mephistopheles) · *The Faust-Legend and Goethe's 'Faust'* (H. B. Cotterill) · 
 (Georg Simmel, German) · *Aus Goethes Frühzeit* (Wilhelm Scherer, German) · *J. W. v. Goethe's
 Biographie* (Heinrich Döring, German) · *Goethes Lebenskunst* (Wilhelm Bode, German)
 
-Each chunk is tagged `primary` (Goethe's own words) or `biography` (someone else's account of
-him) in the vector store's metadata, and the persona prompt treats the two differently — quoting
-his own works directly, but reacting to biographical passages as a real person hearing what
-history says about him ("I am told...").
+**The collected writings, German original (TextGrid Repository, see below):**
+The remaining works not on Gutenberg in German — *Faust* I and II, the *Urfaust*, the complete
+poems (Ausgabe letzter Hand plus Nachlese), *Werther*, *Wilhelm Meisters Lehrjahre*, *Dichtung und
+Wahrheit*, *Tag- und Jahreshefte*, *Maximen und Reflexionen*, *Zur Farbenlehre*, the morphology
+and geology essays, some 45 essays on art and literature, and the smaller plays · **Briefe** —
+his letters 1764–1832, one file per year, each letter headed with year and addressee ·
+**Tagebücher** — the diaries 1775–1832, one file per year · **Gespräche** — Biedermann's
+edition of his recorded conversations 1755–1832 (Eckermann, Kanzler von Müller, Riemer, Soret and
+hundreds of visitors), one file per year, each conversation headed with date and partner
+
+Each chunk is tagged `primary` (Goethe's own words), `conversation` (his talk as written down by
+someone who was in the room) or `biography` (someone else's account of him) in the vector store's
+metadata, and the persona prompt treats the three differently — quoting his own works directly,
+recalling conversations as things he once said aloud, and reacting to biographical passages as a
+real person hearing what history says about him ("I am told...").
 
 Deliberately excluded: near-duplicate re-translations of works already covered (e.g. three other
 English Faust Part I translations), anthologies where Goethe is a minor contributor among other
@@ -74,7 +85,8 @@ frontend (Next.js)  --/api/chat-->  backend (FastAPI)  --embed query-->  ChromaD
                                               drives the portrait's mouth
 ```
 
-- **Data pipeline** (`backend/scripts/`): downloads → cleans Gutenberg boilerplate/footnotes →
+- **Data pipeline** (`backend/scripts/`): downloads (Gutenberg by hand, TextGrid via
+  `fetch_textgrid.py`) → cleans Gutenberg boilerplate/footnotes →
   recursively chunks (~700 chars, 100 char overlap) → embeds with `text-embedding-3-small` →
   stores in a local persistent ChromaDB collection.
 - **RAG + persona** (`backend/app/`): each chat turn folds the last few turns + the new message
@@ -93,7 +105,9 @@ backend/
   data/raw/            source texts (Project Gutenberg, downloaded)
   data/processed/      cleaned text + chunks.jsonl (generated)
   chroma_db/           persistent vector store (generated)
+  data/tei_cache/      TextGrid TEI downloads (generated, ~500 MB, gitignored)
   scripts/
+    fetch_textgrid.py  Phase 1.1b — download + flatten the TextGrid Goethe corpora
     clean.py           Phase 1.2 — strip Gutenberg headers/footers/footnotes
     chunk.py           Phase 1.3 — recursive character chunking
     ingest.py          Phase 2   — embed chunks + load into ChromaDB
@@ -149,6 +163,20 @@ Open `http://localhost:3000`.
 If you add more Goethe texts, drop cleaned `.txt` files into `backend/data/raw/`, then re-run
 `clean.py`, `chunk.py`, and `ingest.py` in order. `ingest.py` recreates the collection from
 scratch each time, so it's always safe to re-run.
+
+### The TextGrid corpora
+
+The letters, diaries, conversations and the works Gutenberg lacks come from the
+[TextGrid Repository](https://textgridrep.org) (public-domain texts, edition CC BY 3.0 DE):
+
+```bash
+python scripts/fetch_textgrid.py
+```
+
+It downloads four TEI corpora once into `data/tei_cache/` (the letters stream for 20+ minutes)
+and writes plain-text files plus `textgrid_sources.json` (their titles) into `data/raw/`. Lines
+starting with `@@ ` are section headings, which `chunk.py` prefixes to each chunk, e.g.
+`[1823, 10. Juni. Mit Johann Peter Eckermann]`.
 
 ## Evaluation (Phase 5 test cases)
 

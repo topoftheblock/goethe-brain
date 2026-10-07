@@ -1,6 +1,7 @@
 backend/.venv/
 backend/.env
 backend/chroma_db/
+backend/data/tei_cache/
 backend/data/processed/chunks.jsonl
 __pycache__/
 *.pyc

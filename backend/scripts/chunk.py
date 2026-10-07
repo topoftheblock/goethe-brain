@@ -12,11 +12,14 @@ from dataclasses import dataclass, asdict
 
 CLEAN_DIR = Path(__file__).parent.parent / "data" / "processed"
 CHUNKS_PATH = CLEAN_DIR / "chunks.jsonl"
+# Titles for the files written by fetch_textgrid.py (same shape as SOURCE_META).
+TEXTGRID_SOURCES_PATH = CLEAN_DIR.parent / "raw" / "textgrid_sources.json"
 
 CHUNK_SIZE = 700
 CHUNK_OVERLAP = 100
 
-# Each entry: filename -> (display title, "primary" [written by Goethe] or
+# Each entry: filename -> (display title, "primary" [written by Goethe],
+# "conversation" [his talk as written down by people who were present] or
 # "biography" [written about Goethe by someone else], author for biography sources)
 SOURCE_META: dict[str, tuple[str, str, str | None]] = {
     "faust_part1.txt": ("Faust, Part I", "primary", None),
@@ -99,7 +102,10 @@ def _split(text: str, separators: list[str]) -> list[str]:
     sep = separators[0]
     if sep == "":
         return [text[i:i + CHUNK_SIZE] for i in range(0, len(text), CHUNK_SIZE)]
-    parts = text.split(sep) if sep else list(text)
+    # Keep each separator on the piece it ends, so re-joining pieces restores
+    # the original text (sentence-final periods included).
+    parts = [part + sep for part in text.split(sep)]
+    parts[-1] = parts[-1][:-len(sep)]
     pieces = []
     for part in parts:
         if len(part) > CHUNK_SIZE:
@@ -115,27 +121,38 @@ def recursive_chunk(text: str) -> list[str]:
     chunks = []
     current = ""
     for piece in pieces:
-        candidate = (current + "\n\n" + piece).strip() if current else piece
-        if len(candidate) <= CHUNK_SIZE:
+        candidate = current + piece
+        if len(candidate.strip()) <= CHUNK_SIZE:
             current = candidate
         else:
-            if current:
-                chunks.append(current)
-                overlap_tail = current[-CHUNK_OVERLAP:]
-                current = (overlap_tail + "\n\n" + piece).strip()
+            if current.strip():
+                chunks.append(current.strip())
+                current = current[-CHUNK_OVERLAP:] + piece
             else:
                 current = piece
-    if current:
-        chunks.append(current)
-    return [c for c in chunks if len(c.strip()) > 40]
+    if current.strip():
+        chunks.append(current.strip())
+    return [c for c in chunks if len(c) > 40]
+
+
+def chunk_document(text: str) -> list[str]:
+    """Chunk each "@@ heading" section on its own and prefix its chunks with the heading."""
+    parts = re.split(r"^@@ (.*)\n", text, flags=re.MULTILINE)  # [body, heading, body, ...]
+    pieces = recursive_chunk(parts[0])
+    for heading, body in zip(parts[1::2], parts[2::2]):
+        pieces += [f"[{heading}]\n{piece}" for piece in recursive_chunk(body)]
+    return pieces
 
 
 def main():
     all_chunks: list[Chunk] = []
+    source_meta = dict(SOURCE_META)
+    if TEXTGRID_SOURCES_PATH.exists():
+        source_meta |= json.loads(TEXTGRID_SOURCES_PATH.read_text(encoding="utf-8"))
     for src in sorted(CLEAN_DIR.glob("*.txt")):
         text = src.read_text(encoding="utf-8")
-        title, source_type, author = SOURCE_META.get(src.name, (src.stem, "primary", None))
-        pieces = recursive_chunk(text)
+        title, source_type, author = source_meta.get(src.name, (src.stem, "primary", None))
+        pieces = chunk_document(text)
         for i, piece in enumerate(pieces):
             all_chunks.append(
                 Chunk(id=f"{src.stem}-{i:05d}", source=title, text=piece, source_type=source_type, author=author)
