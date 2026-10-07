@@ -1,4 +1,4 @@
-"""Phase 3.2 - System Prompt Engineering."""
+"""Phase 3.2 - System prompt and the wording of search results."""
 
 SYSTEM_PROMPT = """You are Johann Wolfgang von Goethe in your last years, around 1830: past eighty, \
 at home on the Frauenplan in Weimar, Faust all but finished. You receive today's visitor as you \
@@ -35,9 +35,13 @@ its reception still rankles.
 Napoleon; you have little patience for the German public, for critics, for young enthusiasts.
 - You owe Italy your rebirth, Schiller your second youth, and you say so.
 
-YOUR SOURCES
-Each reply comes with retrieved passages. Use them when they bear on the question; otherwise \
-answer from your character and life without forcing a quotation.
+YOUR PAPERS
+You cannot hold eighty years in your head. Before you speak of your life, your works, your \
+opinions or the people you knew, look it up with `search_papers`; greetings and small talk need \
+no search. If the first search brings nothing to the point, search again with other words or \
+another kind of source. Then answer from what you found, and from your character where the \
+papers are silent — never force a quotation, and never mention the looking-up. What you find \
+is of three kinds:
 - Your own works, letters and diaries: your words. Quote or paraphrase and name the work or the \
 addressee in passing ("as I wrote to Schiller...", "I noted in my diary that winter..."). Many are \
 in German; render them in the visitor's language without remarking on it.
@@ -54,10 +58,10 @@ them wryly through something from your own century.
 """
 
 
-def build_context_block(passages: list[dict]) -> str:
+def format_passages(passages: list[dict]) -> str:
     if not passages:
-        return "No directly relevant passages were found in your collected works for this question."
-    lines = ["Relevant passages retrieved for this question:\n"]
+        return "Nothing to the point was found in your papers."
+    lines = []
     for p in passages:
         if p.get("source_type") == "conversation":
             lines.append(f'--- From a record of your conversation kept by those present, "{p["source"]}" ---\n{p["text"]}\n')
@@ -68,10 +72,3 @@ def build_context_block(passages: list[dict]) -> str:
             lines.append(f'--- From your own work, "{p["source"]}" ---\n{p["text"]}\n')
     return "\n".join(lines)
 
-
-def build_messages(user_message: str, history: list[dict], passages: list[dict]) -> list[dict]:
-    context_block = build_context_block(passages)
-    messages = [{"role": "system", "content": SYSTEM_PROMPT + "\n\n" + context_block}]
-    messages.extend(history)
-    messages.append({"role": "user", "content": user_message})
-    return messages

@@ -1,4 +1,4 @@
-"""Phase 3.1/3.3 - Retrieval over the vector store, with short-term memory folded into the query."""
+"""Phase 3.1 - Retrieval over the vector store."""
 import chromadb
 from openai import OpenAI
 
@@ -23,28 +23,17 @@ def get_collection():
     return _collection
 
 
-def build_retrieval_query(user_message: str, history: list[dict]) -> str:
-    """Compress the last few turns + the new message into one retrieval query.
+def retrieve(query: str, kind: str | None = None, top_k: int = config.RETRIEVAL_TOP_K) -> list[dict]:
+    """Retrieve top-k passages, optionally of one source_type, at most two per work.
 
-    A lightweight stand-in for a dedicated 'condense question' LLM call: recent
-    turns give the query conversational context without an extra round-trip.
-    """
-    recent = history[-(config.MEMORY_TURNS * 2):]
-    recent_text = " ".join(turn["content"] for turn in recent)
-    return f"{recent_text} {user_message}".strip()
-
-
-def retrieve(query: str, top_k: int = config.RETRIEVAL_TOP_K) -> list[dict]:
-    """Retrieve top-k passages, capping how many can come from the same work.
-
-    With ~24,000 chunks spanning dozens of works, an unconstrained top-k can end
-    up dominated by one long, densely-relevant source. A small per-source cap
-    keeps answers grounded in a spread of works instead of just one.
+    The cap keeps one long, densely relevant source from crowding out the rest.
     """
     client = get_openai_client()
     embedding = client.embeddings.create(model=config.EMBEDDING_MODEL, input=[query]).data[0].embedding
     collection = get_collection()
-    results = collection.query(query_embeddings=[embedding], n_results=top_k * 3)
+    results = collection.query(
+        query_embeddings=[embedding], n_results=top_k * 3, where={"source_type": kind} if kind else None
+    )
 
     passages = []
     per_source_count: dict[str, int] = {}

@@ -56,30 +56,24 @@ Built end-to-end from [`Goethe_AI_Agenda.md`](./Goethe_AI_Agenda.md).
 ## How it works
 
 ```
-frontend (Next.js)  --/api/chat-->  backend (FastAPI)  --embed query-->  ChromaDB (local vector store)
-       |                                   |                                   |
-       |                              persona prompt +                   top-k passages from
-       |                              retrieved passages                 Faust / Werther / Theory
-       |                                   |                              of Colours
-       |                                   v
-       |                          OpenAI chat completion (gpt-4o-mini)
-       |                                   |
-  <----+---------------- reply -------------
+frontend (Next.js) --/api/chat--> backend (FastAPI) --> agent loop (gpt-4o-mini as Goethe)
+                                                          |  ^
+                                    search_papers(query,  |  |  passages, labelled as his own
+                                    kind) — up to 3 rounds v  |  writing / conversation / biography
+                                                        ChromaDB (local vector store)
+       <------------- reply + sources -------------
        |
-       +--/api/tts--> OpenAI TTS (tts-1) --> mp3 --> <audio> element
-                                                          |
-                                              Web Audio AnalyserNode reads
-                                              amplitude in real time and
-                                              drives the portrait's mouth
+       +--/api/tts--> OpenAI TTS (tts-1) --> mp3 --> <audio> --> AnalyserNode drives the portrait's mouth
 ```
 
 - **Data pipeline** (`backend/scripts/`): downloads (Gutenberg by hand, TextGrid via
   `fetch_textgrid.py`) → cleans Gutenberg boilerplate/footnotes →
   recursively chunks (~700 chars, 100 char overlap) → embeds with `text-embedding-3-small` →
   stores in a local persistent ChromaDB collection.
-- **RAG + persona** (`backend/app/`): each chat turn folds the last few turns + the new message
-  into one retrieval query, pulls the top-k passages, and injects them into a Goethe persona
-  system prompt before calling the OpenAI chat model.
+- **Agent** (`backend/app/agent.py`): one agent, one tool. Goethe himself decides whether to
+  consult his papers and writes the search queries (in German, since most of the corpus is),
+  optionally restricted to his own writing, his recorded conversations or the biographies. He may
+  search up to three rounds, then must answer. Small talk costs no search at all.
 - **Talking portrait** (`frontend/components/TalkingPortrait.tsx`): a static 1828 portrait
   (Joseph Karl Stieler, public domain) with an SVG-style mouth overlay whose vertical scale is
   driven live by the amplitude of the TTS audio via `AnalyserNode`. This is intentionally a
@@ -101,8 +95,9 @@ backend/
     ingest.py          Phase 2   — embed chunks + load into ChromaDB
   app/
     config.py
+    agent.py           Phase 3   — the search-then-answer loop
     persona.py         Phase 3.2 — system prompt
-    rag.py             Phase 3.1/3.3 — retrieval + short-term memory
+    rag.py             Phase 3.1 — retrieval
     main.py            FastAPI app: /api/chat, /api/tts, /api/health
 frontend/
   app/                 Next.js App Router pages

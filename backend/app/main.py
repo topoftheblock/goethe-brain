@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from app import config, persona, rag
+from app import agent, config, rag
 
 app = FastAPI(title="Goethe AI", description="A RAG-powered conversational persona of J. W. von Goethe")
 
@@ -54,25 +54,7 @@ def chat(req: ChatRequest):
         raise HTTPException(400, "message must not be empty")
 
     history = [turn.model_dump() for turn in req.history[-(config.MEMORY_TURNS * 2):]]
-    query = rag.build_retrieval_query(req.message, history)
-
-    try:
-        passages = rag.retrieve(query)
-    except Exception:
-        passages = []
-
-    messages = persona.build_messages(req.message, history, passages)
-
-    client = rag.get_openai_client()
-    completion = client.chat.completions.create(
-        model=config.CHAT_MODEL,
-        messages=messages,
-        temperature=0.8,
-        max_tokens=400,
-    )
-    reply = completion.choices[0].message.content
-
-    sources = sorted({p["source"] for p in passages})
+    reply, sources = agent.reply(req.message, history)
     return ChatResponse(reply=reply, sources=sources)
 
 
