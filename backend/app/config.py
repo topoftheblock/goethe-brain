@@ -17,6 +17,6 @@ TTS_VOICE = os.getenv("GOETHE_TTS_VOICE", "onyx")
 
 RETRIEVAL_TOP_K = 6
 MAX_SEARCHES = 3  # search rounds the agent may take before it must answer
-MEMORY_TURNS = 3  # number of prior user/assistant exchanges kept as context
+MEMORY_TURNS = 20  # prior user/assistant exchanges Goethe remembers verbatim
 
 CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")

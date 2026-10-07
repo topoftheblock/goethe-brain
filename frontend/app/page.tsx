@@ -1,8 +1,11 @@
 "use client";
 
 import { useRef } from "react";
-import ChatPanel from "@/components/ChatPanel";
+import dynamic from "next/dynamic";
 import TalkingPortrait, { TalkingPortraitHandle } from "@/components/TalkingPortrait";
+
+// Client-only: it reads the saved conversation from localStorage.
+const ChatPanel = dynamic(() => import("@/components/ChatPanel"), { ssr: false });
 
 export default function Home() {
   const portraitRef = useRef<TalkingPortraitHandle | null>(null);
