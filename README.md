@@ -1,8 +1,8 @@
 # Goethe AI
 
 A full-stack, retrieval-augmented conversational persona of **Johann Wolfgang von Goethe** —
-grounded in essentially everything relevant to him on Project Gutenberg: 56 source texts,
-~33,000 chunks, split between his own writing (plays, novels, poetry, science writing, memoirs,
+grounded in his works, letters, diaries and recorded conversations: 317 source texts,
+~113,000 chunks, split between his own writing (plays, novels, poetry, science writing, memoirs,
 aphorisms, private letters) and what biographers, critics, and essayists have written *about* his
 life and character. English where a translation exists, German original otherwise. Talk to him in
 the browser; he answers in character — reading German sources as fluently as English ones, and
@@ -10,7 +10,7 @@ reacting to biographical accounts of himself as a real person would — and a li
 audio-reactive "talking portrait" animates while he speaks.
 
 <details>
-<summary>Full source list (56 texts, ~33,000 chunks)</summary>
+<summary>Full source list (317 texts, ~113,000 chunks)</summary>
 
 **His own works, in English translation:**
 Faust, Part I · The Sorrows of Young Werther · Theory of Colours · The Poems of Goethe ·
@@ -139,7 +139,7 @@ cp .env.example .env
 # one-time data pipeline (source texts are already in data/raw/)
 python scripts/clean.py
 python scripts/chunk.py
-python scripts/ingest.py     # embeds ~33,000 chunks — roughly $0.15-0.25, takes several minutes
+python scripts/ingest.py     # embeds ~113,000 chunks — roughly $0.50, takes a while
 
 uvicorn app.main:app --reload --port 8000
 ```
