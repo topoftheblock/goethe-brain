@@ -86,10 +86,10 @@ frontend (Next.js) --/api/chat--> backend (FastAPI) --> agent loop (gpt-4o-mini 
 
 ```
 backend/
-  data/raw/            source texts (Project Gutenberg, downloaded)
+  data/raw/            source texts (Project Gutenberg + flattened TextGrid)
   data/processed/      cleaned text + chunks.jsonl (generated)
-  chroma_db/           persistent vector store (generated)
   data/tei_cache/      TextGrid TEI downloads (generated, ~500 MB, gitignored)
+  chroma_db/           persistent vector store (generated)
   scripts/
     fetch_textgrid.py  Phase 1.1b — download + flatten the TextGrid Goethe corpora
     clean.py           Phase 1.2 — strip Gutenberg headers/footers/footnotes
