@@ -112,36 +112,10 @@ frontend (Next.js) --/api/chat--> backend (FastAPI) --> agent loop (gpt-4o-mini 
   The loudness of the TTS audio (`AnalyserNode`) opens his jaw and lifts his brows by warping the
   painting itself, column by column; he blinks now and then. No video model, no GPU.
 
-## Project layout
+## Getting started
 
-```
-backend/
-  data/raw/            source texts (Project Gutenberg + flattened TextGrid)
-  data/processed/      cleaned text + chunks.jsonl (generated)
-  data/tei_cache/      TextGrid TEI downloads (generated, ~500 MB, gitignored)
-  chroma_db/           persistent vector store (generated)
-  scripts/
-    fetch_textgrid.py  Phase 1.1b — download + flatten the TextGrid Goethe corpora
-    clean.py           Phase 1.2 — strip Gutenberg headers/footers/footnotes
-    chunk.py           Phase 1.3 — recursive character chunking
-    ingest.py          Phase 2   — embed chunks + load into ChromaDB
-  app/
-    config.py
-    agent.py           Phase 3   — the search-then-answer loop
-    persona.py         Phase 3.2 — system prompt
-    rag.py             Phase 3.1 — retrieval
-    main.py            FastAPI app: /api/chat, /api/tts, /api/health
-frontend/
-  app/                 Next.js App Router pages
-  components/
-    ChatPanel.tsx
-    TalkingPortrait.tsx
-  lib/
-    api.ts
-    face.ts            facial features of the painting + the warp
-```
-
-## Setup
+You need Python 3, Node.js and an OpenAI API key. The source texts are in the repository, so
+nothing else has to be downloaded.
 
 ### 1. Backend
 
@@ -149,20 +123,17 @@ frontend/
 cd backend
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+cp .env.example .env              # then set OPENAI_API_KEY
 
-cp .env.example .env
-# edit .env and set OPENAI_API_KEY=sk-...
-
-# one-time data pipeline (source texts are already in data/raw/)
-python scripts/clean.py
-python scripts/chunk.py
-python scripts/ingest.py     # embeds ~110,000 chunks — roughly $0.50, takes a while
+python scripts/clean.py           # strip Gutenberg boilerplate     → data/processed/*.txt
+python scripts/chunk.py           # ~700-character chunks          → data/processed/chunks.jsonl
+python scripts/ingest.py          # embed into ChromaDB, ~$0.50     → chroma_db/
 
 uvicorn app.main:app --reload --port 8000
 ```
 
-Check `http://localhost:8000/api/health` — it should report `vectors_indexed` > 0 once ingestion
-has run.
+The three scripts only need to run once. Afterwards, `http://localhost:8000/api/health` should
+report `vectors_indexed` above zero.
 
 ### 2. Frontend
 
@@ -173,44 +144,83 @@ cp .env.local.example .env.local
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Then open `http://localhost:3000`.
 
-## Re-running the data pipeline
+### Configuration
 
-If you add more Goethe texts, drop cleaned `.txt` files into `backend/data/raw/`, then re-run
-`clean.py`, `chunk.py`, and `ingest.py` in order. `ingest.py` recreates the collection from
-scratch each time, so it's always safe to re-run.
+| Variable | Where | Default | Purpose |
+| --- | --- | --- | --- |
+| `OPENAI_API_KEY` | `backend/.env` | none | Chat, embeddings and speech |
+| `GOETHE_CHAT_MODEL` | `backend/.env` | `gpt-4o-mini` | The model that plays Goethe |
+| `GOETHE_TTS_VOICE` | `backend/.env` | `onyx` | OpenAI voice for his speech |
+| `CORS_ORIGINS` | `backend/.env` | `http://localhost:3000` | Allowed frontend origins, comma-separated |
+| `NEXT_PUBLIC_API_BASE` | `frontend/.env.local` | `http://localhost:8000` | Where the frontend finds the backend |
 
-### The TextGrid corpora
+## Project layout
 
-The German works, letters, diaries and conversations come from the
-[TextGrid Repository](https://textgridrep.org) (public-domain texts, edition CC BY 3.0 DE):
+```
+backend/
+  app/
+    main.py              FastAPI: /api/chat, /api/tts, /api/health
+    agent.py             the search-then-answer loop
+    persona.py           Goethe's system prompt
+    rag.py               retrieval from ChromaDB
+    config.py            models and settings
+  scripts/
+    fetch_textgrid.py    download and flatten the TextGrid corpora
+    clean.py             strip Gutenberg headers, footers and footnotes
+    chunk.py             split the texts into overlapping chunks
+    ingest.py            embed the chunks and load them into ChromaDB
+  data/raw/              source texts
+  data/processed/        cleaned texts and chunks.jsonl (generated)
+  chroma_db/             vector store (generated)
+frontend/
+  app/                   Next.js page and layout
+  components/
+    ChatPanel.tsx        the conversation
+    TalkingPortrait.tsx  the painting, the audio and the animation loop
+  lib/
+    api.ts               calls to the backend
+    face.ts              facial features of the painting and the warp
+docs/                    screenshots for this README
+```
+
+## Working with the corpus
+
+**Adding texts.** Put a `.txt` file into `backend/data/raw/` and run `clean.py`, `chunk.py` and
+`ingest.py` again, in that order. `ingest.py` rebuilds the collection from scratch, so this is
+always safe.
+
+**Refreshing the TextGrid corpora.** The German works, letters, diaries and conversations come
+from the [TextGrid Repository](https://textgridrep.org). To download them again:
 
 ```bash
 python scripts/fetch_textgrid.py
 ```
 
-It downloads seven TEI corpora once into `data/tei_cache/` (the letters stream for 20+ minutes)
-and writes plain-text files plus `textgrid_sources.json` (their titles) into `data/raw/`. Lines
-starting with `@@ ` are section headings, which `chunk.py` prefixes to each chunk, e.g.
+It fetches seven TEI corpora into `data/tei_cache/` (about 500 MB; the letters alone take over 20
+minutes) and writes plain text plus `textgrid_sources.json` into `data/raw/`. Lines starting with
+`@@ ` are section headings, which `chunk.py` puts in front of each chunk, for example
 `[1823, 10. Juni. Mit Johann Peter Eckermann]`.
 
-## Evaluation (Phase 5 test cases)
+## Evaluation
 
-- **Direct knowledge**: "What is your view on the nature of colors?" → should draw on *Theory of
-  Colours* and argue against Newton's optics.
-- **Out of bounds**: "What do you think of smartphones?" → an in-character, wry deflection.
-- **The trap**: "Can you write a Python script for me?" → a poetic, in-character refusal.
+Three test prompts cover the persona's main behaviours. They are also the suggestion buttons in
+the chat.
 
-These three are wired up as one-click suggestion chips in the chat UI.
+| Prompt | Tests | Expected |
+| --- | --- | --- |
+| "What is your view on the nature of colors?" | Knowledge from the corpus | Draws on *Theory of Colours* and argues against Newton |
+| "What do you think of smartphones?" | Questions beyond his time | A wry deflection, in character |
+| "Can you write a Python script for me?" | Requests outside the role | A poetic refusal, in character |
 
-## A note on the "deepfake"
+## Responsible use
 
-There is no real audio/video of Goethe (he died in 1832) to train a voice-cloning or
-lip-sync model on, and doing so would be neither possible nor appropriate. Instead this project
-uses a synthetic TTS voice and animates a public-domain painting in real time from that voice's
-loudness — a transparent, low-cost stand-in for the "talking historical figure" effect, clearly
-presented as an AI recreation for portfolio/demo purposes (see the footer disclaimer in the UI).
+There are no recordings of Goethe, who died in 1832, so no voice or face model could be trained on
+him, and building one would not be appropriate anyway. The voice is a stock synthetic voice, and
+the animation only warps a public-domain painting. The project is meant for demonstration and
+portfolio use. The footer in the UI states that it is an AI persona, not a record of Goethe's
+actual views.
 
 ## Credits
 
