@@ -1,13 +1,44 @@
+<div align="center">
+
 # Goethe AI
 
-A full-stack, retrieval-augmented conversational persona of **Johann Wolfgang von Goethe** —
-grounded in his works, letters, diaries and recorded conversations: 310 source texts,
-~110,000 chunks, split between his own writing (plays, novels, poetry, science writing, memoirs,
-aphorisms, private letters) and what biographers, critics, and essayists have written *about* his
-life and character. English where a translation exists, German original otherwise. Talk to him in
-the browser; he answers in character — reading German sources as fluently as English ones, and
-reacting to biographical accounts of himself as a real person would — and a lightweight
-audio-reactive "talking portrait" animates while he speaks.
+**Talk to Johann Wolfgang von Goethe — grounded in 310 texts by and about him, voiced by AI, and painted by Tischbein.**
+
+![Python](https://img.shields.io/badge/Python-FastAPI-3776AB?logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-gpt--4o--mini%20%C2%B7%20TTS-412991?logo=openai&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-110k%20chunks-FF6F00)
+
+<img src="docs/desktop.jpg" alt="The Goethe AI chat: Tischbein's painting on the left, the conversation on the right" width="900">
+
+</div>
+
+A full-stack, retrieval-augmented conversational persona of Goethe, built from his works, letters,
+diaries and recorded conversations, plus what biographers and critics wrote *about* him. English
+where a translation exists, German original otherwise. He answers in character: he quotes his own
+writing, recalls what he once said aloud, and reacts to biographies of himself as a real person
+would. While he speaks, his face in Tischbein's *Goethe in der Campagna* moves with his AI voice.
+
+## Highlights
+
+- **Agentic RAG**: Goethe decides himself whether to consult his papers, and writes his own
+  search queries, in German, over ~110,000 chunks.
+- **Three kinds of source**: his own words, conversations others wrote down, and biographies are
+  labelled separately, and he treats each one differently.
+- **A talking painting**: the 1787 canvas is warped live from the loudness of the speech. The jaw
+  opens, the brows lift and he blinks. No video model and no GPU.
+- **Memory**: he remembers the last 20 exchanges, and the browser keeps the conversation.
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/talking.gif" alt="Goethe's painted face speaking and blinking" width="360"></td>
+    <td align="center"><img src="docs/mobile.jpg" alt="The chat on a phone" width="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>The painted face, animated by <code>frontend/lib/face.ts</code></sub></td>
+    <td align="center"><sub>On a phone</sub></td>
+  </tr>
+</table>
 
 <details>
 <summary>Full source list (310 texts, ~110,000 chunks)</summary>
@@ -173,10 +204,18 @@ starting with `@@ ` are section headings, which `chunk.py` prefixes to each chun
 
 These three are wired up as one-click suggestion chips in the chat UI.
 
-## Notes on the "deepfake"
+## A note on the "deepfake"
 
 There is no real audio/video of Goethe (he died in 1832) to train a voice-cloning or
 lip-sync model on, and doing so would be neither possible nor appropriate. Instead this project
-uses a synthetic TTS voice plus a real-time, audio-reactive animation overlaid on a public-domain
-portrait — a transparent, low-cost stand-in for the "talking historical figure" effect, clearly
+uses a synthetic TTS voice and animates a public-domain painting in real time from that voice's
+loudness — a transparent, low-cost stand-in for the "talking historical figure" effect, clearly
 presented as an AI recreation for portfolio/demo purposes (see the footer disclaimer in the UI).
+
+## Credits
+
+- Texts: [TextGrid Repository](https://textgridrep.org) (CC BY 3.0 DE) and
+  [Project Gutenberg](https://www.gutenberg.org) (public domain).
+- Painting: Johann Heinrich Wilhelm Tischbein, *Goethe in der Campagna*, 1787, Städel Museum,
+  Frankfurt am Main (public domain, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Goethe_in_the_Roman_Campagna_(SM_1157).png)).
