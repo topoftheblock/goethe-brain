@@ -63,7 +63,7 @@ frontend (Next.js) --/api/chat--> backend (FastAPI) --> agent loop (gpt-4o-mini 
                                                         ChromaDB (local vector store)
        <------------- reply + sources -------------
        |
-       +--/api/tts--> OpenAI TTS (tts-1) --> mp3 --> <audio> --> AnalyserNode drives the portrait's mouth
+       +--/api/tts--> OpenAI TTS (tts-1) --> mp3 --> <audio> --> AnalyserNode drives the painted face
 ```
 
 - **Data pipeline** (`backend/scripts/`): downloads (Gutenberg by hand, TextGrid via
@@ -76,11 +76,10 @@ frontend (Next.js) --/api/chat--> backend (FastAPI) --> agent loop (gpt-4o-mini 
   search up to three rounds, then must answer. Small talk costs no search at all.
 - **Memory**: he sees the last 20 exchanges (`MEMORY_TURNS`); the browser keeps the conversation
   in `localStorage` until "Begin anew".
-- **Talking portrait** (`frontend/components/TalkingPortrait.tsx`): a static 1828 portrait
-  (Joseph Karl Stieler, public domain) with an SVG-style mouth overlay whose vertical scale is
-  driven live by the amplitude of the TTS audio via `AnalyserNode`. This is intentionally a
-  cheap, dependency-free effect — not a trained lip-sync/video model — chosen so the demo needs
-  no third-party video API or GPU.
+- **Talking portrait** (`frontend/components/TalkingPortrait.tsx`, `frontend/lib/face.ts`):
+  Tischbein's *Goethe in der Campagna* (1787, Städel Museum, public domain), drawn on a canvas.
+  The loudness of the TTS audio (`AnalyserNode`) opens his jaw and lifts his brows by warping the
+  painting itself, column by column; he blinks now and then. No video model, no GPU.
 
 ## Project layout
 
@@ -106,7 +105,9 @@ frontend/
   components/
     ChatPanel.tsx
     TalkingPortrait.tsx
-  lib/api.ts
+  lib/
+    api.ts
+    face.ts            facial features of the painting + the warp
 ```
 
 ## Setup

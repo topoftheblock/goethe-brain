@@ -25,7 +25,7 @@ export default function Home() {
         </p>
       </header>
 
-      <div className="grid flex-1 grid-cols-1 gap-10 md:grid-cols-[minmax(220px,280px)_1fr]">
+      <div className="grid flex-1 grid-cols-1 gap-10 md:grid-cols-[minmax(260px,380px)_1fr]">
         <TalkingPortrait ref={portraitRef} />
         <div className="min-h-[520px] md:min-h-[600px]">
           <ChatPanel portraitRef={portraitRef} />
@@ -33,8 +33,8 @@ export default function Home() {
       </div>
 
       <footer className="mt-12 border-t border-rule pt-4 text-center text-xs text-faded">
-        Texts: TextGrid Repository and Project Gutenberg (public domain). Portrait: Joseph Karl
-        Stieler, 1828 (Wikimedia Commons, public domain). An AI persona for demonstration, not a
+        Texts: TextGrid Repository and Project Gutenberg (public domain). Painting: Johann Heinrich
+        Wilhelm Tischbein, Goethe in der Campagna, 1787 (Städel Museum, public domain). An AI persona for demonstration, not a
         record of Goethe&apos;s actual views.
       </footer>
     </main>
