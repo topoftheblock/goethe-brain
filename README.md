@@ -86,15 +86,39 @@ Built end-to-end from [`Goethe_AI_Agenda.md`](./Goethe_AI_Agenda.md).
 
 ## How it works
 
-```
-frontend (Next.js) --/api/chat--> backend (FastAPI) --> agent loop (gpt-4o-mini as Goethe)
-                                                          |  ^
-                                    search_papers(query,  |  |  passages, labelled as his own
-                                    kind) — up to 3 rounds v  |  writing / conversation / biography
-                                                        ChromaDB (local vector store)
-       <------------- reply + sources -------------
-       |
-       +--/api/tts--> OpenAI TTS (tts-1) --> mp3 --> <audio> --> AnalyserNode drives the painted face
+```mermaid
+flowchart LR
+    subgraph FE["Frontend · Next.js"]
+        direction TB
+        Chat["Chat"]
+        Face["Talking painting"]
+    end
+    subgraph BE["Backend · FastAPI"]
+        direction TB
+        Agent["Goethe agent<br/>/api/chat"]
+        Speech["Speech<br/>/api/tts"]
+        DB[("ChromaDB<br/>110k chunks")]
+    end
+    subgraph OA["OpenAI"]
+        direction TB
+        LLM["gpt-4o-mini"]
+        TTS["Text-to-speech"]
+    end
+
+    Chat -->|question| Agent
+    Agent -->|search_papers| DB
+    Agent -->|prompt| LLM
+    Agent -->|reply| Speech
+    Speech --> TTS
+    Speech -.->|mp3| Face
+
+    classDef box fill:#f3ead9,stroke:#2b2118,color:#2b2118
+    classDef accent fill:#7a1f3d,stroke:#7a1f3d,color:#ffffff
+    class Chat,Agent,Speech,DB,LLM,TTS box
+    class Face accent
+    style FE fill:none,stroke:#a89a85
+    style BE fill:none,stroke:#a89a85
+    style OA fill:none,stroke:#a89a85
 ```
 
 - **Data pipeline** (`backend/scripts/`): downloads (Gutenberg by hand, TextGrid via
