@@ -58,6 +58,7 @@ export default function ChatPanel({
       const remembered: DisplayMessage[] = [...nextMessages, { role: "assistant", content: reply, sources }];
       setMessages(remembered);
       localStorage.setItem("conversation", JSON.stringify(remembered));
+      setLoading(false);
       scrollToBottom();
 
       if (voiceEnabled) {

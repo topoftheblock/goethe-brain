@@ -9,7 +9,7 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-gpt--4o--mini%20%C2%B7%20TTS-412991?logo=openai&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-110k%20chunks-FF6F00)
 
-<img src="docs/desktop.jpg" alt="The Goethe AI chat: Tischbein's painting on the left, the conversation on the right" width="900">
+<img src="docs/desktop.jpg" alt="Goethe answering a question about colour while his painted face speaks" width="900">
 
 </div>
 
